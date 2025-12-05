@@ -1,0 +1,99 @@
+/* === Fondo general === */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle at top, #0d0d0d, #050505);
+    color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+/* === Encabezado === */
+.header {
+    text-align: center;
+    padding: 25px;
+    background: #111;
+    border-bottom: 2px solid #6a00ff;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    color: #a770ff;
+    text-shadow: 0 0 8px #6a00ff;
+}
+
+/* === Contenedor principal === */
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+/* === Tarjeta === */
+.card {
+    width: 80%;
+    max-width: 800px;
+    background: #151515;
+    border: 2px solid #6a00ff;
+    border-radius: 12px;
+    padding: 20px 30px;
+    box-shadow: 0 0 20px #6a00ff55;
+}
+
+.card h2 {
+    color: #bb86fc;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 12px;
+    margin-top: 10px;
+    background: #0f0f0f;
+    border: 1px solid #6a00ff;
+    border-radius: 8px;
+    color: #eee;
+    font-size: 15px;
+}
+
+/* === Botón === */
+button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: #6a00ff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #8d3bff;
+    transform: scale(1.06);
+}
+
+/* === Respuesta === */
+.respuesta {
+    margin-top: 15px;
+    background: #0d0d0d;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #6a00ff;
+    white-space: pre-wrap;
+}
+
+/* === Referencias === */
+.referencias {
+    margin-top: 10px;
+    padding: 10px;
+    background: #0d0d0d;
+    border-radius: 8px;
+    font-size: 14px;
+    border-left: 4px solid #008cff;
+    white-space: pre-wrap;
+}
