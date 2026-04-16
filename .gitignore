@@ -1,0 +1,32 @@
+# Entorno virtual (MUY importante)
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Node (frontend)
+node_modules/
+frontend/node_modules/
+
+# Build del frontend
+frontend/build/
+frontend/dist/
+
+# Archivos de configuración sensibles
+.env
+*.env
+
+# VSCode / editores
+.vscode/
+.idea/
