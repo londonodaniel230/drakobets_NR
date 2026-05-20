@@ -30,3 +30,5 @@ frontend/dist/
 # VSCode / editores
 .vscode/
 .idea/
+
+backend/.env

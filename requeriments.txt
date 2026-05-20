@@ -1,0 +1,27 @@
+# ══════════════════════════════════════════════════════
+#  DrakoBets RAG — Dependencias Python
+#  Servidor de embeddings: embeddings/servicio_embeddings.py
+#  Instalación: pip install -r requirements.txt
+# ══════════════════════════════════════════════════════
+
+# Servidor web
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# Embeddings de texto — all-MiniLM-L6-v2 (384 dims)
+sentence-transformers==3.0.1
+
+# Embeddings de imágenes — CLIP (512 dims)
+transformers==4.44.2
+torch==2.4.1
+
+# Procesamiento de imágenes
+Pillow==10.4.0
+
+# Conexión a MongoDB (scripts de ingesta Python)
+pymongo==4.8.0
+
+# Utilidades
+numpy==1.26.4
+requests==2.32.3
+python-dotenv==1.0.1

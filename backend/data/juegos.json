@@ -1,0 +1,674 @@
+[
+  {
+    "nombre": "Blackjack Clásico",
+    "categoria": "mesa",
+    "idioma": "es",
+    "fecha_publicacion": "2023-01-15",
+    "rtp": 99.5,
+    "volatilidad": "baja",
+    "proveedor": "Evolution Gaming",
+    "descripcion_texto": "El Blackjack Clásico es uno de los juegos de casino más populares del mundo. El objetivo principal es obtener una mano cuyo valor sea lo más cercano posible a 21 sin pasarse. Cada jugador compite directamente contra el crupier, no contra otros jugadores. Las cartas numéricas valen su valor nominal, las figuras (J, Q, K) valen 10 puntos, y el As puede valer 1 u 11 puntos según convenga al jugador. Al inicio de cada mano, el crupier reparte dos cartas a cada jugador y dos a sí mismo, una visible y otra boca abajo. El jugador puede pedir carta (hit), plantarse (stand), doblar (double down), o separar pares (split). Si el jugador obtiene un As más una carta de valor 10 en las dos primeras cartas, se llama Blackjack y paga 3 a 2. Si el jugador se pasa de 21, pierde automáticamente sin importar la mano del crupier.",
+    "tipo_juego": {
+      "nombre": "mesa",
+      "descripcion": "Juegos de mesa clásicos con crupier",
+      "porcentaje_ganancia": 0.5
+    },
+    "metadatos": {
+      "apuesta_min": 1,
+      "apuesta_max": 5000,
+      "jackpot": false,
+      "etiquetas": ["popular", "estrategia", "clasico"]
+    }
+  },
+  {
+    "nombre": "Ruleta Europea",
+    "categoria": "ruleta",
+    "idioma": "es",
+    "fecha_publicacion": "2023-02-10",
+    "rtp": 97.3,
+    "volatilidad": "media",
+    "proveedor": "Playtech",
+    "descripcion_texto": "La Ruleta Europea es la versión más favorable para el jugador de todas las variantes de ruleta. La rueda tiene 37 números del 0 al 36, con un solo cero verde, lo que reduce la ventaja de la casa al 2.7%. Los jugadores pueden apostar a números individuales, grupos de números, colores (rojo o negro), paridad (par o impar) o rangos (1-18 o 19-36). Las apuestas internas incluyen pleno (un número), caballo (dos números), calle (tres números), cuadro (cuatro números) y línea (seis números). Las apuestas externas cubren grandes grupos de números y tienen mayor probabilidad de ganar pero menor pago. La apuesta al pleno paga 35 a 1, mientras que las apuestas externas simples pagan 1 a 1. El crupier lanza la bola en sentido contrario a la rotación de la rueda, y el número donde cae la bola determina los ganadores.",
+    "tipo_juego": {
+      "nombre": "ruleta",
+      "descripcion": "Juegos de ruleta con rueda física o virtual",
+      "porcentaje_ganancia": 2.7
+    },
+    "metadatos": {
+      "apuesta_min": 0.5,
+      "apuesta_max": 10000,
+      "jackpot": false,
+      "etiquetas": ["clasico", "azar", "europeo"]
+    }
+  },
+  {
+    "nombre": "Texas Hold'em Poker",
+    "categoria": "poker",
+    "idioma": "es",
+    "fecha_publicacion": "2023-03-05",
+    "rtp": 98.0,
+    "volatilidad": "alta",
+    "proveedor": "PokerStars",
+    "descripcion_texto": "El Texas Hold'em es la variante de póker más jugada en el mundo, tanto en casinos físicos como online. Cada jugador recibe dos cartas privadas (hole cards) que solo él puede ver. Luego se revelan cinco cartas comunitarias en tres etapas: el flop (tres cartas), el turn (una carta) y el river (una carta final). El objetivo es formar la mejor mano de cinco cartas usando cualquier combinación de sus dos cartas privadas y las cinco comunitarias. Las manos van desde la pareja hasta la escalera real de color. Hay cuatro rondas de apuestas: antes del flop, después del flop, después del turn y después del river. Los jugadores pueden apostar, igualar, subir o retirarse en cada ronda. El jugador con la mejor mano al final, o el último que quede después de que todos se retiren, gana el bote. La estrategia incluye leer a los oponentes, gestionar el bote y saber cuándo retirarse.",
+    "tipo_juego": {
+      "nombre": "poker",
+      "descripcion": "Juegos de póker en sus diversas variantes",
+      "porcentaje_ganancia": 2.0
+    },
+    "metadatos": {
+      "apuesta_min": 1,
+      "apuesta_max": 50000,
+      "jackpot": false,
+      "etiquetas": ["estrategia", "competitivo", "popular"]
+    }
+  },
+  {
+    "nombre": "Book of Ra Deluxe",
+    "categoria": "slot",
+    "idioma": "es",
+    "fecha_publicacion": "2023-04-20",
+    "rtp": 95.1,
+    "volatilidad": "alta",
+    "proveedor": "Novomatic",
+    "descripcion_texto": "Book of Ra Deluxe es uno de los slots más icónicos de la historia de los casinos online. Ambientado en el antiguo Egipto, el juego presenta cinco rodillos y diez líneas de pago. El símbolo del Libro de Ra actúa como comodín y símbolo scatter simultáneamente. Cuando aparecen tres o más libros en cualquier posición, se activan diez giros gratuitos con un símbolo especial que se expande para cubrir rodillos completos. Los símbolos de mayor valor son el explorador, la figura dorada, la esfinge y el escarabajo. La volatilidad alta significa que los premios son menos frecuentes pero de mayor valor. El jackpot máximo puede alcanzar hasta 500,000 monedas. El juego incluye función de doble o nada donde el jugador puede arriesgar sus ganancias adivinando el color de la próxima carta.",
+    "tipo_juego": {
+      "nombre": "slot",
+      "descripcion": "Máquinas tragamonedas con rodillos virtuales",
+      "porcentaje_ganancia": 4.9
+    },
+    "metadatos": {
+      "apuesta_min": 0.01,
+      "apuesta_max": 500,
+      "jackpot": false,
+      "etiquetas": ["egipto", "clasico", "alta_varianza"]
+    }
+  },
+  {
+    "nombre": "Mega Moolah",
+    "categoria": "slot",
+    "idioma": "es",
+    "fecha_publicacion": "2023-05-12",
+    "rtp": 88.12,
+    "volatilidad": "alta",
+    "proveedor": "Microgaming",
+    "descripcion_texto": "Mega Moolah es el slot de jackpot progresivo más famoso del mundo, conocido por batir récords de premios millonarios. El juego tiene temática africana con animales salvajes y presenta cinco rodillos con 25 líneas de pago. Lo que lo distingue es su sistema de cuatro jackpots progresivos: Mini, Minor, Major y Mega. El jackpot Mega comienza en un millón de dólares y ha superado los 20 millones en ocasiones. El juego de jackpot se activa aleatoriamente mediante una rueda de la fortuna con cuatro secciones de colores. El símbolo del mono salvaje actúa como comodín multiplicador por dos. Tres o más símbolos del león activan quince giros gratuitos con todos los premios triplicados. Aunque el RTP base es inferior al promedio, el jackpot progresivo lo compensa con posibilidades de premios extraordinarios.",
+    "tipo_juego": {
+      "nombre": "slot",
+      "descripcion": "Máquinas tragamonedas con rodillos virtuales",
+      "porcentaje_ganancia": 11.88
+    },
+    "metadatos": {
+      "apuesta_min": 0.25,
+      "apuesta_max": 6.25,
+      "jackpot": true,
+      "etiquetas": ["jackpot", "progresivo", "millonario"]
+    }
+  },
+  {
+    "nombre": "Baccarat Punto Banco",
+    "categoria": "mesa",
+    "idioma": "es",
+    "fecha_publicacion": "2023-06-08",
+    "rtp": 98.94,
+    "volatilidad": "baja",
+    "proveedor": "Evolution Gaming",
+    "descripcion_texto": "El Baccarat Punto Banco es la versión más popular del baccarat en casinos occidentales. El juego es extremadamente sencillo: el jugador apuesta a que ganará el Punto (jugador), la Banca, o que habrá empate. El crupier maneja todo el proceso de reparto de cartas siguiendo reglas fijas. Las cartas del 2 al 9 valen su valor nominal, el As vale 1 y las figuras y el 10 valen 0. Solo cuenta el último dígito de la suma, por lo que el valor máximo es 9. Si cualquier mano tiene 8 o 9 en las dos primeras cartas, es un natural y no se reparten más cartas. La apuesta a la Banca tiene la ventaja de la casa más baja con 1.06%, pero cobra una comisión del 5% sobre las ganancias. La apuesta al Punto tiene ventaja de 1.24%. El empate paga 8 a 1 pero tiene una ventaja de la casa del 14.4%.",
+    "tipo_juego": {
+      "nombre": "mesa",
+      "descripcion": "Juegos de mesa clásicos con crupier",
+      "porcentaje_ganancia": 1.06
+    },
+    "metadatos": {
+      "apuesta_min": 5,
+      "apuesta_max": 50000,
+      "jackpot": false,
+      "etiquetas": ["elegante", "simple", "baja_casa"]
+    }
+  },
+  {
+    "nombre": "Starburst",
+    "categoria": "slot",
+    "idioma": "es",
+    "fecha_publicacion": "2023-07-14",
+    "rtp": 96.09,
+    "volatilidad": "baja",
+    "proveedor": "NetEnt",
+    "descripcion_texto": "Starburst es uno de los slots más populares y reconocibles de NetEnt, conocido por su diseño brillante inspirado en gemas preciosas y el espacio exterior. El juego presenta cinco rodillos y diez líneas de pago que pagan en ambas direcciones, de izquierda a derecha y de derecha a izquierda. Los símbolos incluyen gemas de colores vibrantes y la estrella de siete puntas. El símbolo comodín Starburst aparece en los rodillos 2, 3 y 4, y cuando lo hace, se expande para cubrir el rodillo completo y activa entre uno y tres regiros gratuitos. Durante los regiros, el comodín permanece fijo en su posición. La baja volatilidad significa premios frecuentes aunque de menor cuantía. Es ideal para jugadores nuevos o conservadores por su mecánica simple y entretenida. No tiene función de giros gratuitos tradicional ni multiplicadores complejos.",
+    "tipo_juego": {
+      "nombre": "slot",
+      "descripcion": "Máquinas tragamonedas con rodillos virtuales",
+      "porcentaje_ganancia": 3.91
+    },
+    "metadatos": {
+      "apuesta_min": 0.01,
+      "apuesta_max": 100,
+      "jackpot": false,
+      "etiquetas": ["gemas", "colorido", "baja_varianza", "popular"]
+    }
+  },
+  {
+    "nombre": "Lightning Roulette",
+    "categoria": "ruleta",
+    "idioma": "es",
+    "fecha_publicacion": "2023-08-22",
+    "rtp": 97.3,
+    "volatilidad": "media",
+    "proveedor": "Evolution Gaming",
+    "descripcion_texto": "Lightning Roulette es una innovadora variante de la ruleta europea que combina las reglas clásicas con multiplicadores aleatorios de alta energía. En cada ronda, entre uno y cinco números reciben rayos de relámpago que les asignan multiplicadores de entre 50x y 500x. Si apuestas a pleno en un número electrificado y la bola cae en él, el premio se multiplica por el factor asignado. La emoción aumenta con la estética audiovisual impresionante, con efectos de relámpago y música intensa. Las reglas básicas siguen siendo las de la ruleta europea con un solo cero y 37 números. Sin embargo, para financiar los multiplicadores, los premios estándar al pleno se reducen de 35 a 1 a 29 a 1. Las apuestas externas mantienen sus pagos tradicionales. Es perfecta para jugadores que buscan la posibilidad de premios masivos manteniendo la mecánica familiar de la ruleta.",
+    "tipo_juego": {
+      "nombre": "ruleta",
+      "descripcion": "Juegos de ruleta con rueda física o virtual",
+      "porcentaje_ganancia": 2.7
+    },
+    "metadatos": {
+      "apuesta_min": 0.2,
+      "apuesta_max": 5000,
+      "jackpot": false,
+      "etiquetas": ["innovador", "multiplicadores", "en_vivo"]
+    }
+  },
+  {
+    "nombre": "Gonzo's Quest",
+    "categoria": "slot",
+    "idioma": "es",
+    "fecha_publicacion": "2023-09-18",
+    "rtp": 95.97,
+    "volatilidad": "media",
+    "proveedor": "NetEnt",
+    "descripcion_texto": "Gonzo's Quest es un slot revolucionario de NetEnt que introdujo la mecánica de caída en cascada al mundo de los juegos de casino. En lugar de rodillos giratorios tradicionales, los bloques de símbolos caen desde arriba y cuando forman combinaciones ganadoras, explotan y dejan caer nuevos símbolos en su lugar. Esto permite encadenar múltiples ganancias en una sola apuesta. El juego sigue la historia del conquistador español Gonzalo Pizarro en busca de El Dorado. Los multiplicadores aumentan con cada cascada consecutiva: 1x, 2x, 3x y 5x en el juego base, y 3x, 6x, 9x y 15x durante los giros gratuitos. Los giros gratuitos se activan con tres o más símbolos scatter dorados. Los símbolos están inspirados en la cultura azteca con máscaras y figuras doradas. La mecánica de cascadas hace que cada ronda sea dinámica y emocionante.",
+    "tipo_juego": {
+      "nombre": "slot",
+      "descripcion": "Máquinas tragamonedas con rodillos virtuales",
+      "porcentaje_ganancia": 4.03
+    },
+    "metadatos": {
+      "apuesta_min": 0.20,
+      "apuesta_max": 50,
+      "jackpot": false,
+      "etiquetas": ["cascadas", "aventura", "azteca", "popular"]
+    }
+  },
+  {
+    "nombre": "Caribbean Stud Poker",
+    "categoria": "poker",
+    "idioma": "es",
+    "fecha_publicacion": "2023-10-30",
+    "rtp": 94.78,
+    "volatilidad": "media",
+    "proveedor": "Playtech",
+    "descripcion_texto": "El Caribbean Stud Poker es una variante del póker de cinco cartas donde el jugador compite contra la casa en lugar de contra otros jugadores. Antes del reparto, el jugador puede hacer una apuesta adicional de un dólar para participar en el jackpot progresivo. El crupier reparte cinco cartas a cada jugador y cinco para sí mismo, con una carta visible. El jugador puede ver sus cartas y decidir si retirarse perdiendo la apuesta inicial, o continuar haciendo una apuesta doble. El crupier debe tener al menos As-Rey para clasificar. Si no clasifica, el jugador cobra 1 a 1 en la apuesta inicial y la apuesta de continuación se devuelve. Si clasifica y el jugador le gana, cobra según una tabla de pagos: una pareja paga 1 a 1, dos pares 2 a 1, trío 3 a 1, escalera 4 a 1, color 5 a 1, full 7 a 1, póker 20 a 1 y escalera real de color 100 a 1. El jackpot progresivo se gana con una escalera real de color.",
+    "tipo_juego": {
+      "nombre": "poker",
+      "descripcion": "Juegos de póker en sus diversas variantes",
+      "porcentaje_ganancia": 5.22
+    },
+    "metadatos": {
+      "apuesta_min": 1,
+      "apuesta_max": 500,
+      "jackpot": true,
+      "etiquetas": ["caribe", "jackpot", "cinco_cartas"]
+    }
+  },
+  {
+    "nombre": "Aviator",
+    "categoria": "en_vivo",
+    "idioma": "es",
+    "fecha_publicacion": "2023-11-05",
+    "rtp": 97.0,
+    "volatilidad": "alta",
+    "proveedor": "Spribe",
+    "descripcion_texto": "Aviator es un juego de crash innovador que ha revolucionado la industria de los casinos online. Un avión despega y un multiplicador comienza a crecer desde 1x. El jugador debe retirar sus ganancias antes de que el avión vuele fuera de pantalla, momento en el que todos los que no retiraron pierden su apuesta. El multiplicador puede crecer hasta cifras astronómicas o caer en cualquier momento de forma aleatoria usando un algoritmo provably fair verificable. Los jugadores pueden hacer dos apuestas simultáneas con estrategias diferentes. La función de auto-retirada permite configurar un multiplicador objetivo para retirar automáticamente. El chat en vivo muestra las apuestas y retiros de otros jugadores en tiempo real, creando un ambiente social único. Las estadísticas muestran los últimos resultados y los multiplicadores máximos recientes. La mecánica simple pero adictiva combina azar con gestión del riesgo personal.",
+    "tipo_juego": {
+      "nombre": "en_vivo",
+      "descripcion": "Juegos en vivo con dealers reales o mecánicas especiales",
+      "porcentaje_ganancia": 3.0
+    },
+    "metadatos": {
+      "apuesta_min": 0.10,
+      "apuesta_max": 100,
+      "jackpot": false,
+      "etiquetas": ["crash", "social", "innovador", "provably_fair"]
+    }
+  },
+  {
+    "nombre": "Sweet Bonanza",
+    "categoria": "slot",
+    "idioma": "es",
+    "fecha_publicacion": "2023-12-01",
+    "rtp": 96.51,
+    "volatilidad": "alta",
+    "proveedor": "Pragmatic Play",
+    "descripcion_texto": "Sweet Bonanza es un slot colorido de Pragmatic Play con temática de dulces y frutas. El juego usa una cuadrícula de 6x5 con mecánica de pago por agrupación: se gana cuando aparecen 8 o más símbolos iguales en cualquier posición de la pantalla. Los símbolos incluyen sandías, uvas, manzanas, plátanos, ciruelas y caramelos. Los símbolos de bomba aparecen durante los giros gratuitos y añaden multiplicadores al contador. La función de giros gratuitos se activa con cuatro o más scatter de lollipop. Durante los giros gratuitos, los multiplicadores se acumulan y al final de cada giro se multiplican todos los premios de ese giro. Los multiplicadores pueden alcanzar valores de 100x. La función de compra de bonificación permite acceder directamente a los giros gratuitos pagando 100 veces la apuesta. La volatilidad alta significa sesiones de alta tensión con potencial de premios enormes en los giros gratuitos.",
+    "tipo_juego": {
+      "nombre": "slot",
+      "descripcion": "Máquinas tragamonedas con rodillos virtuales",
+      "porcentaje_ganancia": 3.49
+    },
+    "metadatos": {
+      "apuesta_min": 0.20,
+      "apuesta_max": 125,
+      "jackpot": false,
+      "etiquetas": ["dulces", "colorido", "alta_varianza", "popular"]
+    }
+  },
+  {
+    "nombre": "Blackjack Español 21",
+    "categoria": "mesa",
+    "idioma": "es",
+    "fecha_publicacion": "2024-01-20",
+    "rtp": 99.59,
+    "volatilidad": "baja",
+    "proveedor": "Microgaming",
+    "descripcion_texto": "El Blackjack Español 21 es una variante emocionante que elimina los cuatro doses del mazo, resultando en un mazo de 48 cartas. A pesar de esta desventaja aparente, el juego compensa con reglas extremadamente favorables para el jugador. El jugador siempre gana si tiene 21 independientemente de la mano del crupier. El blackjack del jugador siempre vence al del crupier. Se permite doblar después de separar, incluyendo ases. El jugador puede rendirse tardíamente después de que el crupier comprueba el blackjack. Las bonificaciones especiales incluyen 21 de cinco cartas que paga 3 a 2, 21 de seis cartas que paga 2 a 1, y 21 de siete cartas o más que paga 3 a 1. La combinación 6-7-8 o 7-7-7 del mismo palo paga 3 a 2, y en espadas paga 2 a 1. La combinación 7-7-7 del mismo palo con el crupier mostrando un 7 activa el super bonus de hasta 5000 dólares.",
+    "tipo_juego": {
+      "nombre": "mesa",
+      "descripcion": "Juegos de mesa clásicos con crupier",
+      "porcentaje_ganancia": 0.41
+    },
+    "metadatos": {
+      "apuesta_min": 1,
+      "apuesta_max": 2000,
+      "jackpot": false,
+      "etiquetas": ["estrategia", "variante", "bonificaciones"]
+    }
+  },
+  {
+    "nombre": "Dragon Tiger",
+    "categoria": "mesa",
+    "idioma": "es",
+    "fecha_publicacion": "2024-02-14",
+    "rtp": 96.73,
+    "volatilidad": "baja",
+    "proveedor": "Evolution Gaming",
+    "descripcion_texto": "Dragon Tiger es un juego de casino de origen asiático extremadamente simple y rápido. El crupier reparte una sola carta al Dragón y una al Tigre. El jugador apuesta a cuál de las dos cartas será la más alta, o si habrá empate. Las cartas van del As (el más bajo) al Rey (el más alto). La apuesta principal al Dragón o al Tigre paga 1 a 1, con una ventaja de la casa del 3.73% en caso de que la mano pierda por empate, pagando solo la mitad de la apuesta en ese caso. La apuesta al empate paga 8 a 1 pero tiene una alta ventaja de la casa del 32.77%. Las apuestas laterales incluyen pares, grande/pequeño (si la carta es mayor o menor al 7) y si la carta será roja o negra. La rapidez de las rondas, con solo dos cartas por mano, hace que Dragon Tiger sea perfecto para quienes prefieren juegos ágiles y sin complicaciones.",
+    "tipo_juego": {
+      "nombre": "mesa",
+      "descripcion": "Juegos de mesa clásicos con crupier",
+      "porcentaje_ganancia": 3.27
+    },
+    "metadatos": {
+      "apuesta_min": 1,
+      "apuesta_max": 5000,
+      "jackpot": false,
+      "etiquetas": ["asiatico", "simple", "rapido"]
+    }
+  },
+  {
+    "nombre": "Gates of Olympus",
+    "categoria": "slot",
+    "idioma": "es",
+    "fecha_publicacion": "2024-03-10",
+    "rtp": 96.50,
+    "volatilidad": "alta",
+    "proveedor": "Pragmatic Play",
+    "descripcion_texto": "Gates of Olympus es un slot de temática griega protagonizado por Zeus, el dios del trueno. El juego usa una cuadrícula de 6x5 con mecánica de pago por agrupación, pagando cuando aparecen 8 o más símbolos iguales. Zeus lanza rayos periódicamente que convierten símbolos aleatorios en multiplicadores que se suman durante el giro. Los símbolos de mayor valor incluyen sortijas doradas, coronas, relojes de arena y cálices. Los giros gratuitos se activan con cuatro o más scatter del reloj de arena dorado. Durante los giros gratuitos, los multiplicadores de Zeus se acumulan en lugar de reiniciarse, pudiendo alcanzar multiplicadores totales de miles de veces la apuesta. La función de compra de bonificación permite acceder al bonus por 100 veces la apuesta. El modo Ante Bet aumenta las probabilidades del scatter a cambio de una apuesta mayor. Con potencial de hasta 5000x la apuesta, es uno de los slots más populares del mundo actualmente.",
+    "tipo_juego": {
+      "nombre": "slot",
+      "descripcion": "Máquinas tragamonedas con rodillos virtuales",
+      "porcentaje_ganancia": 3.5
+    },
+    "metadatos": {
+      "apuesta_min": 0.20,
+      "apuesta_max": 125,
+      "jackpot": false,
+      "etiquetas": ["grecia", "zeus", "alta_varianza", "popular"]
+    }
+  },
+  {
+    "nombre": "Three Card Poker",
+    "categoria": "poker",
+    "idioma": "es",
+    "fecha_publicacion": "2024-04-05",
+    "rtp": 97.99,
+    "volatilidad": "media",
+    "proveedor": "Scientific Games",
+    "descripcion_texto": "El Three Card Poker es una versión simplificada del póker donde cada jugador y el crupier reciben tres cartas. El juego ofrece dos apuestas principales: Ante y Pair Plus. Con la apuesta Ante el jugador compite contra el crupier, mientras que Pair Plus es una apuesta independiente sobre la calidad de la mano propia. Después de ver sus tres cartas, el jugador decide si continúa con una apuesta Play igual al Ante o se retira. El crupier debe tener al menos una Reina para clasificar. Si no clasifica, el Ante paga 1 a 1 y el Play se devuelve. La tabla de pagos del Ante Bonus premia manos especiales independientemente del resultado contra el crupier: escalera de color paga 5 a 1, trío paga 4 a 1 y escalera paga 1 a 1. La apuesta Pair Plus paga según la mano: escalera de color 40 a 1, trío 30 a 1, color 6 a 1, escalera 3 a 1 y par 1 a 1. La rapidez y simplicidad del juego lo hacen muy popular.",
+    "tipo_juego": {
+      "nombre": "poker",
+      "descripcion": "Juegos de póker en sus diversas variantes",
+      "porcentaje_ganancia": 2.01
+    },
+    "metadatos": {
+      "apuesta_min": 1,
+      "apuesta_max": 1000,
+      "jackpot": false,
+      "etiquetas": ["tres_cartas", "simple", "rapido"]
+    }
+  },
+  {
+    "nombre": "Mega Fortune",
+    "categoria": "slot",
+    "idioma": "es",
+    "fecha_publicacion": "2024-05-18",
+    "rtp": 96.4,
+    "volatilidad": "baja",
+    "proveedor": "NetEnt",
+    "descripcion_texto": "Mega Fortune es el legendario slot de jackpot progresivo de NetEnt con temática de lujo y riqueza. El juego presenta un yate, champán, joyas y relojes de lujo como símbolos. Cinco rodillos con 25 líneas de pago ofrecen entretenimiento continuo. El símbolo de la copa de champán es el scatter que activa quince giros gratuitos cuando aparecen tres o más. Durante los giros gratuitos, el comodín de lujo puede duplicar las ganancias. El elemento más emocionante es la rueda de la fortuna bonus, activada por tres o más símbolos de bonus de la limosina. La rueda tiene tres niveles: el exterior otorga premios en efectivo, el medio da entradas a niveles superiores, y el centro puede otorgar el jackpot Mega Fortune. El jackpot Mega Fortune ha superado los 17 millones de euros y tiene el récord Guinness por el mayor jackpot pagado en un casino online. Los jackpots Rapid, Major y Mega se acumulan con cada apuesta en todo el mundo.",
+    "tipo_juego": {
+      "nombre": "slot",
+      "descripcion": "Máquinas tragamonedas con rodillos virtuales",
+      "porcentaje_ganancia": 3.6
+    },
+    "metadatos": {
+      "apuesta_min": 0.25,
+      "apuesta_max": 50,
+      "jackpot": true,
+      "etiquetas": ["jackpot", "lujo", "guinness", "progresivo"]
+    }
+  },
+  {
+    "nombre": "Live Casino Hold'em",
+    "categoria": "en_vivo",
+    "idioma": "es",
+    "fecha_publicacion": "2024-06-12",
+    "rtp": 97.84,
+    "volatilidad": "media",
+    "proveedor": "Evolution Gaming",
+    "descripcion_texto": "Live Casino Hold'em es una adaptación del Texas Hold'em donde los jugadores compiten contra la banca en lugar de entre sí, transmitida en directo desde un estudio profesional. El jugador y el crupier reciben dos cartas privadas, y se revelan tres cartas comunitarias en el flop. El jugador decide si continuar con Call o retirarse (Fold). Después, se revelan el turn y el river completando las cinco cartas comunitarias. Gana quien forme la mejor mano de cinco cartas entre sus dos privadas y las cinco comunitarias. El crupier necesita al menos un par de cuatros para clasificar. La tabla de pagos premia las manos especiales del jugador: escalera real 100 a 1, escalera de color 20 a 1, póker 10 a 1, full 3 a 1 y color 2 a 1. La apuesta AA Bonus premia si las primeras dos cartas del jugador más el flop incluyen un par de ases o mejor. La interacción con el crupier en vivo y el chat con otros jugadores recrean la atmósfera de un casino real.",
+    "tipo_juego": {
+      "nombre": "en_vivo",
+      "descripcion": "Juegos en vivo con dealers reales o mecánicas especiales",
+      "porcentaje_ganancia": 2.16
+    },
+    "metadatos": {
+      "apuesta_min": 0.50,
+      "apuesta_max": 2000,
+      "jackpot": false,
+      "etiquetas": ["en_vivo", "poker", "dealer_real"]
+    }
+  },
+  {
+    "nombre": "Wolf Gold",
+    "categoria": "slot",
+    "idioma": "es",
+    "fecha_publicacion": "2024-07-08",
+    "rtp": 96.01,
+    "volatilidad": "media",
+    "proveedor": "Pragmatic Play",
+    "descripcion_texto": "Wolf Gold es un slot de temática del Oeste americano con animales salvajes de Pragmatic Play. El juego presenta cinco rodillos y 25 líneas de pago con una estética visual impresionante del paisaje desértico. Los símbolos incluyen águilas, bisontes, caballos, pumas y lobos. El símbolo del lobo es el más valioso y actúa como comodín. El coyote dorado es el scatter que activa los giros gratuitos. El modo Money Respin se activa cuando aparecen seis o más monedas de dinero en los rodillos. Durante el respin, las posiciones con monedas se mantienen fijas mientras el resto de los rodillos giran. Si se llenan los 15 espacios con monedas, se gana el jackpot Grand que comienza en un millón de créditos. El juego también tiene jackpots Mini y Major que se pueden ganar aleatoriamente. La función de compra de giros gratuitos está disponible en jurisdicciones permitidas. La mecánica combinada de giros gratuitos y money respin ofrece múltiples formas de ganar premios significativos.",
+    "tipo_juego": {
+      "nombre": "slot",
+      "descripcion": "Máquinas tragamonedas con rodillos virtuales",
+      "porcentaje_ganancia": 3.99
+    },
+    "metadatos": {
+      "apuesta_min": 0.25,
+      "apuesta_max": 125,
+      "jackpot": true,
+      "etiquetas": ["oeste", "animales", "jackpot", "popular"]
+    }
+  },
+  {
+    "nombre": "Ruleta Americana",
+    "categoria": "ruleta",
+    "idioma": "es",
+    "fecha_publicacion": "2024-08-15",
+    "rtp": 94.74,
+    "volatilidad": "media",
+    "proveedor": "Microgaming",
+    "descripcion_texto": "La Ruleta Americana es la variante de ruleta con la mayor ventaja para la casa debido a la presencia de dos ceros en la rueda: el 0 y el 00. Con 38 números en total, la ventaja de la casa es del 5.26% en la mayoría de las apuestas, significativamente mayor que en la versión europea. Los tipos de apuesta son similares a la ruleta europea: pleno, caballo, calle, cuadro, línea, docena, columna, rojo o negro, par o impar, y grande o pequeño. Sin embargo, existe una apuesta única americana llamada Five Number Bet o Basket que cubre los números 0, 00, 1, 2 y 3, aunque tiene la peor ventaja de la casa del 7.89%. A pesar de la mayor ventaja de la casa, la Ruleta Americana sigue siendo muy popular especialmente en Estados Unidos. Algunos jugadores prefieren su dinamismo y la adición del 00 como elemento diferenciador. Las mesas ofrecen límites amplios adaptados para diferentes tipos de jugadores.",
+    "tipo_juego": {
+      "nombre": "ruleta",
+      "descripcion": "Juegos de ruleta con rueda física o virtual",
+      "porcentaje_ganancia": 5.26
+    },
+    "metadatos": {
+      "apuesta_min": 0.50,
+      "apuesta_max": 5000,
+      "jackpot": false,
+      "etiquetas": ["americana", "doble_cero", "clasico"]
+    }
+  },
+  {
+    "nombre": "Dead or Alive 2",
+    "categoria": "slot",
+    "idioma": "es",
+    "fecha_publicacion": "2024-09-20",
+    "rtp": 96.82,
+    "volatilidad": "alta",
+    "proveedor": "NetEnt",
+    "descripcion_texto": "Dead or Alive 2 es la secuela del aclamado slot del Salvaje Oeste de NetEnt, con una volatilidad extremadamente alta que la convierte en favorita de cazadores de grandes premios. El juego tiene cinco rodillos y nueve líneas de pago fijas. Los símbolos incluyen estrellas de sheriff, botas, sombreros, pistolas y los forajidos más buscados como Wild Belle y Wild Jane. Los comodines son pegajosos durante las características de giros gratuitos. Hay tres modos de giros gratuitos con diferentes niveles de volatilidad: Old Saloon con 12 giros y comodines pegajosos en multiplicador 2x, Train Heist con 12 giros y comodines caminantes en multiplicador 3x, y High Noon Saloon con 12 giros y comodines pegajosos en multiplicador 5x. El modo High Noon Saloon tiene el mayor potencial con ganancias documentadas de más de 100,000x la apuesta. La retrigger de giros gratuitos acumula los comodines, creando pantallas completas de comodines con multiplicadores masivos.",
+    "tipo_juego": {
+      "nombre": "slot",
+      "descripcion": "Máquinas tragamonedas con rodillos virtuales",
+      "porcentaje_ganancia": 3.18
+    },
+    "metadatos": {
+      "apuesta_min": 0.09,
+      "apuesta_max": 18,
+      "jackpot": false,
+      "etiquetas": ["oeste", "alta_varianza", "extremo", "comodines"]
+    }
+  },
+  {
+    "nombre": "Monopoly Live",
+    "categoria": "en_vivo",
+    "idioma": "es",
+    "fecha_publicacion": "2024-10-05",
+    "rtp": 96.23,
+    "volatilidad": "media",
+    "proveedor": "Evolution Gaming",
+    "descripcion_texto": "Monopoly Live es un innovador juego de casino en vivo que combina la rueda de la fortuna con el clásico juego de mesa Monopoly. Una rueda gigante con segmentos numerados (1, 2, 5, 10) y segmentos especiales (2 Rolls y 4 Rolls) gira en el estudio. Los jugadores apuestan a qué segmento se detendrá la rueda. Los segmentos 2 Rolls y 4 Rolls activan una experiencia de realidad aumentada tridimensional donde Mr. Monopoly tira los dados en el tablero virtual. Cada propiedad en la que cae acumula multiplicadores de dinero. Las casas y hoteles previos en el tablero aumentan significativamente los multiplicadores. Una partida de Rolls puede continuar por muchos lanzamientos, acumulando premios masivos. Los valores de los segmentos determinan los pagos base: el segmento 1 paga 1 a 1, el 2 paga 2 a 1, el 5 paga 5 a 1 y el 10 paga 10 a 1. Las características bonus pueden multiplicar estos valores cientos de veces. La presentación de Mr. Monopoly y el ambiente del estudio hacen de este juego una experiencia única.",
+    "tipo_juego": {
+      "nombre": "en_vivo",
+      "descripcion": "Juegos en vivo con dealers reales o mecánicas especiales",
+      "porcentaje_ganancia": 3.77
+    },
+    "metadatos": {
+      "apuesta_min": 0.10,
+      "apuesta_max": 2500,
+      "jackpot": false,
+      "etiquetas": ["en_vivo", "monopoly", "realidad_aumentada", "innovador"]
+    }
+  },
+  {
+    "nombre": "Reactoonz",
+    "categoria": "slot",
+    "idioma": "es",
+    "fecha_publicacion": "2024-11-12",
+    "rtp": 96.51,
+    "volatilidad": "alta",
+    "proveedor": "Play'n GO",
+    "descripcion_texto": "Reactoonz es un slot de Play'n GO con simpáticos alienígenas de ojos grandes en una cuadrícula de 7x7. El juego usa mecánica de clúster, pagando cuando se agrupan cinco o más símbolos iguales en posiciones adyacentes horizontal o verticalmente. Los símbolos ganadores explotan y nuevos alienígenas caen para rellenar los espacios. El medidor Quantumeter se llena con cada símbolo alienígena de ojos grandes que explota. Al llenarse cada sección, se activan cuatro características especiales: Implosion transforma alienígenas en comodines, Alteration convierte símbolos de bajo valor en uno de alto valor, Demolition elimina todos los símbolos de bajo valor, y Wild Generation crea comodines 2x2. El medidor completo activa Gargantoon, un comodín masivo de 3x3 que aplasta la cuadrícula. Los comodines electrizados conectan en diagonal además de horizontal y verticalmente, multiplicando su efectividad. La dinámica visual y el sistema de características hacen que cada partida sea impredecible y emocionante.",
+    "tipo_juego": {
+      "nombre": "slot",
+      "descripcion": "Máquinas tragamonedas con rodillos virtuales",
+      "porcentaje_ganancia": 3.49
+    },
+    "metadatos": {
+      "apuesta_min": 0.20,
+      "apuesta_max": 100,
+      "jackpot": false,
+      "etiquetas": ["alien", "cluster", "innovador", "alta_varianza"]
+    }
+  },
+  {
+    "nombre": "Pai Gow Poker",
+    "categoria": "poker",
+    "idioma": "es",
+    "fecha_publicacion": "2024-12-01",
+    "rtp": 97.34,
+    "volatilidad": "baja",
+    "proveedor": "Playtech",
+    "descripcion_texto": "El Pai Gow Poker es una fusión del antiguo juego chino de dominó Pai Gow con el póker occidental. Cada jugador recibe siete cartas que debe dividir en dos manos: una mano alta de cinco cartas y una mano baja de dos cartas. La mano alta siempre debe superar a la mano baja. El jugador gana si ambas manos superan las del crupier, pierde si ambas son inferiores, y empata si solo una supera. El empate resulta en push y se devuelve la apuesta. El comodín puede completar escaleras, colores, escaleras de color y escaleras reales, o actuar como As en cualquier otra situación. La estrategia óptima implica conocer cómo dividir las siete cartas de la mejor manera posible según las combinaciones recibidas. La baja volatilidad y la alta frecuencia de empates hacen que el bankroll dure más tiempo que en otros juegos. Se paga una comisión del 5% sobre las ganancias netas. Es ideal para sesiones largas de juego con riesgo controlado.",
+    "tipo_juego": {
+      "nombre": "poker",
+      "descripcion": "Juegos de póker en sus diversas variantes",
+      "porcentaje_ganancia": 2.66
+    },
+    "metadatos": {
+      "apuesta_min": 5,
+      "apuesta_max": 2000,
+      "jackpot": false,
+      "etiquetas": ["asiatico", "siete_cartas", "baja_varianza", "estrategia"]
+    }
+  },
+  {
+    "nombre": "Age of the Gods",
+    "categoria": "slot",
+    "idioma": "es",
+    "fecha_publicacion": "2025-01-15",
+    "rtp": 95.02,
+    "volatilidad": "media",
+    "proveedor": "Playtech",
+    "descripcion_texto": "Age of the Gods es el slot insignia de la serie mitológica de Playtech, conectado a una red de jackpots progresivos masivos. Los cinco rodillos con 20 líneas de pago presentan a los dioses griegos Zeus, Athena, Hercules y Poseidón como símbolos de alto valor. El símbolo del rayo dorado actúa como comodín multiplicador. El bonus de giros gratuitos se activa con tres o más scatter del templo griego, otorgando diez giros con multiplicadores progresivos. El bonus de poderes de los dioses se activa aleatoriamente durante el juego base, con cuatro características temáticas únicas para cada dios: Zeus envía rayos para convertir símbolos en comodines, Athena activa giros gratuitos adicionales, Hercules multiplica las ganancias, y Poseidón añade comodines de serpiente marina. El jackpot Age of the Gods se divide en cuatro niveles: Power, Extra Power, Super Power y Ultimate Power. El jackpot se activa aleatoriamente y se juega en una rueda con cuatro secciones de colores correspondientes a cada nivel.",
+    "tipo_juego": {
+      "nombre": "slot",
+      "descripcion": "Máquinas tragamonedas con rodillos virtuales",
+      "porcentaje_ganancia": 4.98
+    },
+    "metadatos": {
+      "apuesta_min": 0.20,
+      "apuesta_max": 500,
+      "jackpot": true,
+      "etiquetas": ["grecia", "jackpot", "mitologia", "progresivo"]
+    }
+  },
+  {
+    "nombre": "Crazy Time",
+    "categoria": "en_vivo",
+    "idioma": "es",
+    "fecha_publicacion": "2025-02-10",
+    "rtp": 96.08,
+    "volatilidad": "alta",
+    "proveedor": "Evolution Gaming",
+    "descripcion_texto": "Crazy Time es el juego de show en vivo más popular de Evolution Gaming, una versión hipervitaminada de la rueda de la fortuna con cuatro bonus games únicos. La rueda principal tiene 54 segmentos con números (1, 2, 5, 10) y cuatro bonus games: Cash Hunt, Pachinko, Coin Flip y el Crazy Time central. El flipper de multiplicadores arriba de la rueda puede multiplicar cualquier resultado antes de que se revele. En Cash Hunt, los jugadores disparan a uno de 108 símbolos ocultos en busca de multiplicadores. En Pachinko, un disco cae por un tablero de clavos hacia multiplicadores en la parte inferior, con la posibilidad de doblar repetidamente. En Coin Flip, se lanza una moneda que revela multiplicadores en ambas caras, con doble disponible. En Crazy Time, se entra a un mundo de colores maravilloso con una rueda gigante de tres secciones donde el multiplicador puede alcanzar 20,000x. Los presentadores carismáticos y los efectos visuales hacen de cada giro un evento espectacular.",
+    "tipo_juego": {
+      "nombre": "en_vivo",
+      "descripcion": "Juegos en vivo con dealers reales o mecánicas especiales",
+      "porcentaje_ganancia": 3.92
+    },
+    "metadatos": {
+      "apuesta_min": 0.10,
+      "apuesta_max": 5000,
+      "jackpot": false,
+      "etiquetas": ["show", "en_vivo", "multiplicadores", "extremo", "popular"]
+    }
+  },
+  {
+    "nombre": "Buffalo King Megaways",
+    "categoria": "slot",
+    "idioma": "es",
+    "fecha_publicacion": "2025-03-05",
+    "rtp": 96.06,
+    "volatilidad": "alta",
+    "proveedor": "Pragmatic Play",
+    "descripcion_texto": "Buffalo King Megaways es una versión mejorada del popular Buffalo King con el motor Megaways que puede generar hasta 200,704 formas de ganar. El paisaje de las Grandes Planicies americanas sirve de fondo para bisontes, águilas, lobos, pumas y osos como símbolos principales. El rodillo horizontal en la parte superior añade símbolos adicionales que aumentan las formas de ganar. Los símbolos scatter del sol activan los giros gratuitos: cuatro otorgan doce giros, cinco quince y seis dieciocho. Durante los giros gratuitos, los comodines tienen multiplicadores de 2x o 3x que se multiplican entre sí cuando aparecen varios en el mismo giro. Los retriggers añaden cinco giros adicionales. El comodín de bisonte aparece en todos los rodillos y sustituye a todos los símbolos excepto el scatter. La característica de compra de bonus permite acceder directamente a los giros gratuitos. La combinación de Megaways, multiplicadores y comodines crea un potencial de ganancias de hasta 5000x la apuesta.",
+    "tipo_juego": {
+      "nombre": "slot",
+      "descripcion": "Máquinas tragamonedas con rodillos virtuales",
+      "porcentaje_ganancia": 3.94
+    },
+    "metadatos": {
+      "apuesta_min": 0.20,
+      "apuesta_max": 125,
+      "jackpot": false,
+      "etiquetas": ["megaways", "bisonte", "alta_varianza", "americano"]
+    }
+  },
+  {
+    "nombre": "Speed Baccarat",
+    "categoria": "mesa",
+    "idioma": "es",
+    "fecha_publicacion": "2025-04-01",
+    "rtp": 98.76,
+    "volatilidad": "baja",
+    "proveedor": "Evolution Gaming",
+    "descripcion_texto": "Speed Baccarat es una versión acelerada del baccarat clásico diseñada para jugadores que prefieren un ritmo más dinámico. Las rondas duran aproximadamente 27 segundos en lugar de los 48 habituales, gracias a que las cartas se revelan simultáneamente en lugar de secuencialmente. Las reglas son idénticas al Punto Banco estándar: el jugador apuesta a Punto, Banca o Empate, y el objetivo es acercarse al 9 con dos o tres cartas. Los valores son los mismos: cartas 2-9 valen su número, As vale 1, y figuras y 10 valen 0. Solo cuenta el último dígito de la suma. La apuesta a Banca paga 0.95 a 1 después de la comisión del 5%. La apuesta al Punto paga 1 a 1. El Empate paga 8 a 1. Las apuestas laterales incluyen Player Pair y Banker Pair, que pagan 11 a 1 si las dos primeras cartas respectivas forman par. La velocidad de las rondas lo hace ideal para sesiones de alto volumen y jugadores con estrategias definidas.",
+    "tipo_juego": {
+      "nombre": "mesa",
+      "descripcion": "Juegos de mesa clásicos con crupier",
+      "porcentaje_ganancia": 1.24
+    },
+    "metadatos": {
+      "apuesta_min": 1,
+      "apuesta_max": 25000,
+      "jackpot": false,
+      "etiquetas": ["rapido", "baccarat", "en_vivo", "alto_limite"]
+    }
+  },
+  {
+    "nombre": "Book of Dead",
+    "categoria": "slot",
+    "idioma": "es",
+    "fecha_publicacion": "2025-04-20",
+    "rtp": 96.21,
+    "volatilidad": "alta",
+    "proveedor": "Play'n GO",
+    "descripcion_texto": "Book of Dead es el slot de temática egipcia más popular de Play'n GO, protagonizado por el aventurero Rich Wilde en su búsqueda del Libro de los Muertos. El juego presenta cinco rodillos y diez líneas de pago. El Libro de los Muertos actúa simultáneamente como comodín y scatter. Cuando aparecen tres o más libros en cualquier posición, se activan diez giros gratuitos con un símbolo especial que se expande. El símbolo expandible se selecciona aleatoriamente antes de cada sesión de giros gratuitos y puede cubrir rodillos completos cuando aparece. Los símbolos de mayor valor son Rich Wilde, Anubis, Ra y el escarabajo dorado. Los retriggers de giros gratuitos son posibles, acumulando hasta 180 giros en una sola sesión con suerte. La alta volatilidad significa períodos sin ganancias seguidos de potenciales explosiones de premios masivos cuando el símbolo expandible cubre múltiples rodillos simultáneamente. El diseño visual y la música crean una atmósfera de aventura arqueológica muy inmersiva.",
+    "tipo_juego": {
+      "nombre": "slot",
+      "descripcion": "Máquinas tragamonedas con rodillos virtuales",
+      "porcentaje_ganancia": 3.79
+    },
+    "metadatos": {
+      "apuesta_min": 0.01,
+      "apuesta_max": 100,
+      "jackpot": false,
+      "etiquetas": ["egipto", "aventura", "alta_varianza", "popular"]
+    }
+  },
+  {
+    "nombre": "Immersive Roulette",
+    "categoria": "ruleta",
+    "idioma": "es",
+    "fecha_publicacion": "2025-05-01",
+    "rtp": 97.3,
+    "volatilidad": "media",
+    "proveedor": "Evolution Gaming",
+    "descripcion_texto": "Immersive Roulette es la experiencia de ruleta en vivo más cinematográfica disponible en casinos online. La producción utiliza ocho cámaras de alta definición con repeticiones en cámara lenta ultra detalladas de la bola girando en la rueda. Las cámaras capturan ángulos imposibles en una mesa de casino real, incluyendo vistas cenitales de la rueda y primeros planos de la bola rodando sobre los números. Las reglas siguen el formato europeo estándar con 37 números y un solo cero, manteniendo la ventaja de la casa al 2.7%. Los tipos de apuesta incluyen todas las opciones clásicas: pleno, caballo, calle, cuadro, seisena, docena, columna, rojo o negro, par o impar, y pequeño o grande. La regla La Partage se aplica en las apuestas externas cuando sale el cero, devolviendo la mitad de la apuesta y reduciendo efectivamente la ventaja de la casa al 1.35%. El presentador profesional añade comentarios y crea ambiente. La experiencia visual de alta calidad transforma la ruleta tradicional en un espectáculo audiovisual.",
+    "tipo_juego": {
+      "nombre": "ruleta",
+      "descripcion": "Juegos de ruleta con rueda física o virtual",
+      "porcentaje_ganancia": 2.7
+    },
+    "metadatos": {
+      "apuesta_min": 0.10,
+      "apuesta_max": 20000,
+      "jackpot": false,
+      "etiquetas": ["en_vivo", "cinematografico", "europeo", "la_partage"]
+    }
+  },
+  {
+    "nombre": "Spin a Win",
+    "categoria": "en_vivo",
+    "idioma": "es",
+    "fecha_publicacion": "2025-05-08",
+    "rtp": 95.0,
+    "volatilidad": "media",
+    "proveedor": "Playtech",
+    "descripcion_texto": "Spin a Win es el juego de rueda de la fortuna en vivo de Playtech, una alternativa clásica a los shows de rueda de Evolution. Una rueda vertical dividida en segmentos con diferentes valores gira en un estudio profesional. Los segmentos incluyen los números 1, 2, 3, 5, 10 y 20, y un segmento especial de bonus. El jugador apuesta al número o segmento donde cree que se detendrá el marcador. Los pagos son directamente proporcionales al número apostado: el 1 paga 1 a 1, el 2 paga 2 a 1, hasta el 20 que paga 20 a 1. El bonus game activa una segunda rueda con multiplicadores adicionales. La presentadora interactúa con los jugadores a través del chat en tiempo real. El diseño limpio y profesional del estudio y la mecánica sencilla hacen de Spin a Win una opción accesible para todos los tipos de jugadores. Las estadísticas de resultados anteriores se muestran para análisis. Es ideal como introducción a los juegos en vivo para nuevos jugadores por su simplicidad.",
+    "tipo_juego": {
+      "nombre": "en_vivo",
+      "descripcion": "Juegos en vivo con dealers reales o mecánicas especiales",
+      "porcentaje_ganancia": 5.0
+    },
+    "metadatos": {
+      "apuesta_min": 0.10,
+      "apuesta_max": 1000,
+      "jackpot": false,
+      "etiquetas": ["rueda", "en_vivo", "simple", "principiantes"]
+    }
+  },
+  {
+    "nombre": "Fruit Shop Megaways",
+    "categoria": "slot",
+    "idioma": "es",
+    "fecha_publicacion": "2025-05-09",
+    "rtp": 96.71,
+    "volatilidad": "alta",
+    "proveedor": "NetEnt",
+    "descripcion_texto": "Fruit Shop Megaways es la reinvención moderna del clásico slot de frutas de NetEnt con el motor Megaways de BTG. La nostalgia de los símbolos de frutas clásicas se combina con la tecnología de hasta 100,000 formas de ganar en seis rodillos de altura variable. Las cerezas, limones, naranjas, sandías, uvas y sietes conservan la estética retro pero con animaciones modernas. El rodillo horizontal superior añade símbolos adicionales. Los giros gratuitos se activan con tres o más scatter de la estrella, otorgando diez giros iniciales. Cada scatter adicional en el activador añade dos giros más. Durante los giros gratuitos, un multiplicador de ganancia comienza en 1x y aumenta en 1 con cada cascada consecutiva sin límite máximo. Los comodines aparecen solo durante los giros gratuitos y pueden crear combinaciones masivas junto con el multiplicador ilimitado. La combinación de cascadas, multiplicador ilimitado y Megaways crea potencial para ganancias de varios miles de veces la apuesta en una sola ronda de giros gratuitos.",
+    "tipo_juego": {
+      "nombre": "slot",
+      "descripcion": "Máquinas tragamonedas con rodillos virtuales",
+      "porcentaje_ganancia": 3.29
+    },
+    "metadatos": {
+      "apuesta_min": 0.20,
+      "apuesta_max": 400,
+      "jackpot": false,
+      "etiquetas": ["frutas", "megaways", "retro", "cascadas"]
+    }
+  }
+]

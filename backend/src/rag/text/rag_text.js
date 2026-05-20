@@ -1,34 +1,37 @@
-const { embedText } = require("../utils/embeddings");
+import { embedText } from "../utils/embeddings.js";
 
-async function ragText(db, question) {
-    const col = db.collection("chunks_dinamico");
+export async function ragText(db, question, estrategia = null, limit = 5) {
+  const col = db.collection("chunks");
 
-    const vector = await embedText(question);
+  const vector = await embedText(question);
 
-    const pipeline = [
-        {
-            $search: {
-                index: "vector_index_text",
-                knnBeta: {
-                    path: "embedding",
-                    vector,
-                    k: 5
-                }
-            }
-        },
-        {
-            $project: {
-                contenido: 1,
-                source: 1,
-                _score: { $meta: "searchScore" }
-            }
-        }
-    ];
+  // Filtro opcional por estrategia
+  const filter = estrategia ? { estrategia_chunking: { $eq: estrategia } } : {};
 
-    const results = await col.aggregate(pipeline).toArray();
-    const context = results.map(r => r.contenido).join("\n\n");
+  const pipeline = [
+    {
+      $vectorSearch: {
+        index: "vector_index_chunks",
+        path: "embedding",
+        queryVector: vector,
+        numCandidates: 150,
+        limit,
+        filter
+      }
+    },
+    {
+      $project: {
+        chunk_texto: 1,
+        estrategia_chunking: 1,
+        doc_id: 1,
+        num_tokens: 1,
+        score: { $meta: "vectorSearchScore" }
+      }
+    }
+  ];
 
-    return { results, context };
+  const results = await col.aggregate(pipeline).toArray();
+  const context = results.map(r => r.chunk_texto).join("\n\n");
+
+  return { results, context };
 }
-
-module.exports = { ragText };

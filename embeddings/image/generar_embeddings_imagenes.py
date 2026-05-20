@@ -9,9 +9,9 @@ from transformers import CLIPModel, CLIPProcessor
 # ===============================
 # CONFIG
 # ===============================
-MONGO_URI = "mongodb+srv://juan1702011916:Lupe@drakobets.sm7rm2c.mongodb.net/?appName=DrakoBets"
-DB_NAME = "Proyecto"
-COLLECTION = "rag_media"
+MONGO_URI = os.environ.get("MONGO_URI") or "mongodb://localhost:27017"
+DB_NAME = os.environ.get("DB_NAME") or "Proyecto"
+COLLECTION = os.environ.get("EMBEDDINGS_IMAGE_COLLECTION") or "rag_media"
 DIM = 512   # CLIP base patch32 siempre produce 512 dims
 
 # CONECTAR A MONGO

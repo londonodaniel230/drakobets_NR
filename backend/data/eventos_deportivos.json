@@ -1,0 +1,489 @@
+[
+  {
+    "fecha": "2025-06-15",
+    "ciudad": "Madrid",
+    "pais": "España",
+    "descripcion_texto": "El Real Madrid se enfrenta al Barcelona en el clásico de la temporada 2025 en el Santiago Bernabéu. Este partido es uno de los más esperados del año, con ambos equipos luchando por el liderato de LaLiga. El Real Madrid cuenta con su plantilla al completo y viene de una racha de cinco victorias consecutivas. El Barcelona llega después de ganar la Copa del Rey y buscará su primera victoria en el Bernabéu en tres años. Los dos equipos acumulan más de 200 clásicos en la historia.",
+    "competencia": {
+      "nombre": "LaLiga Santander 2025",
+      "fechainicio": "2024-08-15",
+      "fechafin": "2025-05-25",
+      "lugar": "España",
+      "deporte": {
+        "nombre": "Fútbol",
+        "region": "Europa",
+        "descripcion": "El fútbol es el deporte más popular del mundo. Dos equipos de once jugadores compiten para introducir el balón en la portería contraria. El equipo que anota más goles en 90 minutos gana el partido. Incluye tiempo de descuento y en eliminatorias puede ir a prórroga y penales."
+      }
+    },
+    "participantes": [
+      {"tipo": "equipo", "nombre": "Real Madrid", "ciudad": "Madrid", "pais": "España"},
+      {"tipo": "equipo", "nombre": "FC Barcelona", "ciudad": "Barcelona", "pais": "España"}
+    ],
+    "cuotas": {"local": 2.10, "empate": 3.40, "visitante": 3.20}
+  },
+  {
+    "fecha": "2025-06-20",
+    "ciudad": "Londres",
+    "pais": "Reino Unido",
+    "descripcion_texto": "Arsenal y Manchester City se miden en un encuentro decisivo de la Premier League 2025. El Arsenal busca su primera liga en más de veinte años con una generación de jóvenes talentos que ha ilusionado a la afición. Manchester City, liderado por su técnico más experimentado, pretende mantener su dominio del fútbol inglés. El Emirates Stadium estará a plena capacidad con más de 60,000 aficionados. Ambos equipos tienen cinco puntos de diferencia en la tabla con seis jornadas por disputar.",
+    "competencia": {
+      "nombre": "Premier League 2025",
+      "fechainicio": "2024-08-10",
+      "fechafin": "2025-05-20",
+      "lugar": "Inglaterra",
+      "deporte": {
+        "nombre": "Fútbol",
+        "region": "Europa",
+        "descripcion": "El fútbol es el deporte más popular del mundo. Dos equipos de once jugadores compiten para introducir el balón en la portería contraria. El equipo que anota más goles en 90 minutos gana el partido. Incluye tiempo de descuento y en eliminatorias puede ir a prórroga y penales."
+      }
+    },
+    "participantes": [
+      {"tipo": "equipo", "nombre": "Arsenal FC", "ciudad": "Londres", "pais": "Reino Unido"},
+      {"tipo": "equipo", "nombre": "Manchester City", "ciudad": "Manchester", "pais": "Reino Unido"}
+    ],
+    "cuotas": {"local": 2.50, "empate": 3.20, "visitante": 2.80}
+  },
+  {
+    "fecha": "2025-07-01",
+    "ciudad": "Wimbledon",
+    "pais": "Reino Unido",
+    "descripcion_texto": "Final del torneo de Wimbledon 2025 entre los dos mejores tenistas del mundo en el circuito actual. El torneo de Wimbledon es el más antiguo del mundo y el único Grand Slam que se juega sobre hierba. Los jugadores deben adaptar su juego a esta superficie rápida que favorece el saque y la volea. La final se disputará al mejor de cinco sets con desempate en todos los sets excepto el quinto. La cancha central tiene capacidad para 15,000 espectadores.",
+    "competencia": {
+      "nombre": "Wimbledon 2025",
+      "fechainicio": "2025-06-23",
+      "fechafin": "2025-07-06",
+      "lugar": "Wimbledon, Londres",
+      "deporte": {
+        "nombre": "Tenis",
+        "region": "Mundial",
+        "descripcion": "El tenis es un deporte de raqueta disputado entre dos jugadores o dos parejas. El objetivo es golpear la pelota sobre la red y dentro de los límites de la cancha contraria de forma que el oponente no pueda devolverla. Los puntos se cuentan como 15, 30, 40 y juego. Se juegan sets de seis juegos y los partidos son al mejor de tres o cinco sets según el torneo."
+      }
+    },
+    "participantes": [
+      {"tipo": "jugador", "nombre": "Carlos Alcaraz", "nacionalidad": "España"},
+      {"tipo": "jugador", "nombre": "Novak Djokovic", "nacionalidad": "Serbia"}
+    ],
+    "cuotas": {"jugador1": 1.85, "jugador2": 1.95}
+  },
+  {
+    "fecha": "2025-07-10",
+    "ciudad": "Miami",
+    "pais": "Estados Unidos",
+    "descripcion_texto": "Los Miami Heat reciben a los Boston Celtics en el primer partido de las Finales de la Conferencia Este de la NBA 2025. El Heat llega después de eliminar a los Milwaukee Bucks en cinco partidos, mientras que los Celtics barrieron a los Philadelphia 76ers. Ambos equipos tienen tradición de grandes duelos en playoffs. El Kaseya Center estará a plena capacidad con más de 19,000 aficionados. La serie se disputa al mejor de siete partidos con el ganador avanzando a las Finales de la NBA.",
+    "competencia": {
+      "nombre": "NBA Playoffs 2025",
+      "fechainicio": "2025-04-15",
+      "fechafin": "2025-06-20",
+      "lugar": "Estados Unidos",
+      "deporte": {
+        "nombre": "Baloncesto",
+        "region": "América del Norte",
+        "descripcion": "El baloncesto es un deporte de equipo donde dos equipos de cinco jugadores intentan anotar encestando el balón en la canasta contraria. Cada canasta vale dos puntos desde dentro del arco y tres desde fuera. Los tiros libres valen un punto. Los partidos tienen cuatro cuartos de doce minutos con prórroga si hay empate."
+      }
+    },
+    "participantes": [
+      {"tipo": "equipo", "nombre": "Miami Heat", "ciudad": "Miami", "pais": "Estados Unidos"},
+      {"tipo": "equipo", "nombre": "Boston Celtics", "ciudad": "Boston", "pais": "Estados Unidos"}
+    ],
+    "cuotas": {"local": 2.20, "visitante": 1.70}
+  },
+  {
+    "fecha": "2025-07-15",
+    "ciudad": "Múnich",
+    "pais": "Alemania",
+    "descripcion_texto": "Bayern Munich y Borussia Dortmund protagonizan el Klassiker en la Allianz Arena por la jornada 30 de la Bundesliga 2025. El clásico alemán tiene décadas de historia y siempre genera gran expectativa. El Bayern busca su decimocuarto título consecutivo mientras que el Dortmund quiere dar la sorpresa. La Allianz Arena tiene capacidad para 75,000 espectadores. El partido tendrá repercusión en la lucha por el título ya que el Bayern aventaja en tres puntos al Dortmund.",
+    "competencia": {
+      "nombre": "Bundesliga 2024-2025",
+      "fechainicio": "2024-08-16",
+      "fechafin": "2025-05-17",
+      "lugar": "Alemania",
+      "deporte": {
+        "nombre": "Fútbol",
+        "region": "Europa",
+        "descripcion": "El fútbol es el deporte más popular del mundo. Dos equipos de once jugadores compiten para introducir el balón en la portería contraria. El equipo que anota más goles en 90 minutos gana el partido. Incluye tiempo de descuento y en eliminatorias puede ir a prórroga y penales."
+      }
+    },
+    "participantes": [
+      {"tipo": "equipo", "nombre": "Bayern Munich", "ciudad": "Múnich", "pais": "Alemania"},
+      {"tipo": "equipo", "nombre": "Borussia Dortmund", "ciudad": "Dortmund", "pais": "Alemania"}
+    ],
+    "cuotas": {"local": 1.75, "empate": 3.80, "visitante": 4.50}
+  },
+  {
+    "fecha": "2025-07-20",
+    "ciudad": "Río de Janeiro",
+    "pais": "Brasil",
+    "descripcion_texto": "Brasil y Argentina se enfrentan en las semifinales de la Copa América 2025 en el Maracaná. El clásico sudamericano es uno de los partidos de mayor rivalidad en el fútbol mundial. Brasil busca su primera Copa América en diez años ante su público. Argentina llega como campeona del mundo y defensora del título continental. El partido se espera que sea de alta intensidad con ambas selecciones mostrando sus mejores figuras. El Maracaná tendrá presencia de 78,000 espectadores.",
+    "competencia": {
+      "nombre": "Copa América 2025",
+      "fechainicio": "2025-06-15",
+      "fechafin": "2025-07-13",
+      "lugar": "Brasil",
+      "deporte": {
+        "nombre": "Fútbol",
+        "region": "América del Sur",
+        "descripcion": "El fútbol es el deporte más popular del mundo. Dos equipos de once jugadores compiten para introducir el balón en la portería contraria. El equipo que anota más goles en 90 minutos gana el partido. Incluye tiempo de descuento y en eliminatorias puede ir a prórroga y penales."
+      }
+    },
+    "participantes": [
+      {"tipo": "equipo", "nombre": "Brasil", "ciudad": "Río de Janeiro", "pais": "Brasil"},
+      {"tipo": "equipo", "nombre": "Argentina", "ciudad": "Buenos Aires", "pais": "Argentina"}
+    ],
+    "cuotas": {"local": 2.30, "empate": 3.10, "visitante": 2.90}
+  },
+  {
+    "fecha": "2025-07-25",
+    "ciudad": "Las Vegas",
+    "pais": "Estados Unidos",
+    "descripcion_texto": "Combate estelar de boxeo por el título mundial peso pesado entre los dos mejores peleadores del mundo en la actualidad. La pelea se celebrará en el T-Mobile Arena de Las Vegas con capacidad para 20,000 espectadores. El campeón llega invicto con 28 victorias, 24 por nocaut, mientras que el retador tiene un récord de 25 victorias y una derrota. Ambos peleadores han declarado en la prensa que terminarán la pelea antes del límite de doce rounds. Se espera una de las peleas del año.",
+    "competencia": {
+      "nombre": "WBC World Heavyweight Championship 2025",
+      "fechainicio": "2025-07-25",
+      "fechafin": "2025-07-25",
+      "lugar": "Las Vegas, Nevada",
+      "deporte": {
+        "nombre": "Boxeo",
+        "region": "Mundial",
+        "descripcion": "El boxeo es un deporte de combate donde dos competidores se enfrentan en un ring golpeándose con los puños enfundados en guantes. Los combates se dividen en rounds de tres minutos con un minuto de descanso. Se puede ganar por nocaut, nocaut técnico, descalificación o decisión de los jueces al final de los rounds."
+      }
+    },
+    "participantes": [
+      {"tipo": "jugador", "nombre": "Anthony Joshua", "nacionalidad": "Reino Unido"},
+      {"tipo": "jugador", "nombre": "Oleksandr Usyk", "nacionalidad": "Ucrania"}
+    ],
+    "cuotas": {"jugador1": 2.40, "jugador2": 1.60}
+  },
+  {
+    "fecha": "2025-08-01",
+    "ciudad": "París",
+    "pais": "Francia",
+    "descripcion_texto": "PSG y Olympique de Marsella se enfrentan en el Parque de los Príncipes en el clásico del fútbol francés conocido como Le Classique. La rivalidad entre estos dos clubes es la más intensa de la Ligue 1 y siempre genera polémica dentro y fuera del campo. El PSG lidera la tabla con cinco puntos de ventaja. El OM viene de ganar tres partidos consecutivos y está en racha. El clásico francés tiene un componente cultural y regional muy marcado entre París y Marsella.",
+    "competencia": {
+      "nombre": "Ligue 1 2024-2025",
+      "fechainicio": "2024-08-09",
+      "fechafin": "2025-05-18",
+      "lugar": "Francia",
+      "deporte": {
+        "nombre": "Fútbol",
+        "region": "Europa",
+        "descripcion": "El fútbol es el deporte más popular del mundo. Dos equipos de once jugadores compiten para introducir el balón en la portería contraria. El equipo que anota más goles en 90 minutos gana el partido. Incluye tiempo de descuento y en eliminatorias puede ir a prórroga y penales."
+      }
+    },
+    "participantes": [
+      {"tipo": "equipo", "nombre": "Paris Saint-Germain", "ciudad": "París", "pais": "Francia"},
+      {"tipo": "equipo", "nombre": "Olympique de Marsella", "ciudad": "Marsella", "pais": "Francia"}
+    ],
+    "cuotas": {"local": 1.60, "empate": 3.75, "visitante": 5.50}
+  },
+  {
+    "fecha": "2025-08-10",
+    "ciudad": "Melbourne",
+    "pais": "Australia",
+    "descripcion_texto": "Final del Abierto de Australia 2026 en la pista central Rod Laver Arena. El Abierto de Australia es el primer Grand Slam del año y se juega sobre pista dura. La final femenina enfrenta a dos de las mejores tenistas del mundo en la actualidad. La ganadora obtendrá 2000 puntos para el ranking WTA y un premio de 4.4 millones de dólares australianos. El torneo ha registrado récord de asistencia esta edición con más de 900,000 espectadores durante las dos semanas.",
+    "competencia": {
+      "nombre": "Abierto de Australia 2026",
+      "fechainicio": "2026-01-13",
+      "fechafin": "2026-01-26",
+      "lugar": "Melbourne, Australia",
+      "deporte": {
+        "nombre": "Tenis",
+        "region": "Oceanía",
+        "descripcion": "El tenis es un deporte de raqueta disputado entre dos jugadores o dos parejas. El objetivo es golpear la pelota sobre la red y dentro de los límites de la cancha contraria de forma que el oponente no pueda devolverla. Los puntos se cuentan como 15, 30, 40 y juego. Se juegan sets de seis juegos y los partidos son al mejor de tres o cinco sets según el torneo."
+      }
+    },
+    "participantes": [
+      {"tipo": "jugador", "nombre": "Iga Swiatek", "nacionalidad": "Polonia"},
+      {"tipo": "jugador", "nombre": "Aryna Sabalenka", "nacionalidad": "Bielorrusia"}
+    ],
+    "cuotas": {"jugador1": 1.90, "jugador2": 1.90}
+  },
+  {
+    "fecha": "2025-08-20",
+    "ciudad": "Chicago",
+    "pais": "Estados Unidos",
+    "descripcion_texto": "Los Chicago Bulls reciben a los Los Angeles Lakers en un duelo histórico de franquicias legendarias de la NBA. Ambos equipos tienen el mayor número de anillos de la historia de la liga. Este partido de temporada regular tiene especial significado porque enfrenta a las ciudades con mayor rivalidad histórica del baloncesto americano. El United Center de Chicago tiene capacidad para 21,000 espectadores. Los Bulls buscan recuperar su lugar entre las franquicias de élite de la Conferencia Este.",
+    "competencia": {
+      "nombre": "NBA Regular Season 2025-2026",
+      "fechainicio": "2025-10-22",
+      "fechafin": "2026-04-12",
+      "lugar": "Estados Unidos",
+      "deporte": {
+        "nombre": "Baloncesto",
+        "region": "América del Norte",
+        "descripcion": "El baloncesto es un deporte de equipo donde dos equipos de cinco jugadores intentan anotar encestando el balón en la canasta contraria. Cada canasta vale dos puntos desde dentro del arco y tres desde fuera. Los tiros libres valen un punto. Los partidos tienen cuatro cuartos de doce minutos con prórroga si hay empate."
+      }
+    },
+    "participantes": [
+      {"tipo": "equipo", "nombre": "Chicago Bulls", "ciudad": "Chicago", "pais": "Estados Unidos"},
+      {"tipo": "equipo", "nombre": "Los Angeles Lakers", "ciudad": "Los Angeles", "pais": "Estados Unidos"}
+    ],
+    "cuotas": {"local": 2.80, "visitante": 1.50}
+  },
+  {
+    "fecha": "2025-09-01",
+    "ciudad": "Monza",
+    "pais": "Italia",
+    "descripcion_texto": "Gran Premio de Italia de Fórmula 1 2025 en el Autodromo Nazionale Monza, conocido como el Templo de la Velocidad. Monza es el circuito más rápido del calendario de F1 con velocidades que superan los 350 km/h en las rectas. El trazado tiene pocas curvas y premia los monoplazas con mayor potencia en motor. Los aficionados Ferrari, conocidos como la Tifosi, llenarán las gradas con sus banderas rojas. La carrera se disputa en 53 vueltas al circuito de 5.793 kilómetros.",
+    "competencia": {
+      "nombre": "Fórmula 1 2025",
+      "fechainicio": "2025-03-16",
+      "fechafin": "2025-11-23",
+      "lugar": "Mundial",
+      "deporte": {
+        "nombre": "Automovilismo",
+        "region": "Mundial",
+        "descripcion": "La Fórmula 1 es la categoría máxima del automovilismo mundial. Los pilotos compiten en monoplazas de alta tecnología en circuitos de todo el mundo. Las carreras se disputan en una distancia mínima de 305 kilómetros o dos horas máximo. El campeonato mundial se decide por puntos acumulados durante la temporada."
+      }
+    },
+    "participantes": [
+      {"tipo": "jugador", "nombre": "Max Verstappen", "nacionalidad": "Países Bajos"},
+      {"tipo": "jugador", "nombre": "Charles Leclerc", "nacionalidad": "Mónaco"},
+      {"tipo": "jugador", "nombre": "Lewis Hamilton", "nacionalidad": "Reino Unido"}
+    ],
+    "cuotas": {"verstappen": 1.80, "leclerc": 3.50, "hamilton": 4.00, "otro": 2.50}
+  },
+  {
+    "fecha": "2025-09-15",
+    "ciudad": "Nueva York",
+    "pais": "Estados Unidos",
+    "descripcion_texto": "Final del US Open de tenis masculino 2025 en el Arthur Ashe Stadium de Flushing Meadows. El US Open es el último Grand Slam del año y se juega sobre pista dura bajo las luces de Nueva York. El estadio Arthur Ashe es el más grande del mundo con capacidad para 23,771 espectadores. La final masculina enfrenta al número uno del mundo con el vigente campeón que busca defender su título. El ganador recibirá un premio de 3.6 millones de dólares y 2000 puntos ATP.",
+    "competencia": {
+      "nombre": "US Open 2025",
+      "fechainicio": "2025-08-25",
+      "fechafin": "2025-09-07",
+      "lugar": "Nueva York, Estados Unidos",
+      "deporte": {
+        "nombre": "Tenis",
+        "region": "América del Norte",
+        "descripcion": "El tenis es un deporte de raqueta disputado entre dos jugadores o dos parejas. El objetivo es golpear la pelota sobre la red y dentro de los límites de la cancha contraria de forma que el oponente no pueda devolverla. Los puntos se cuentan como 15, 30, 40 y juego. Se juegan sets de seis juegos y los partidos son al mejor de tres o cinco sets según el torneo."
+      }
+    },
+    "participantes": [
+      {"tipo": "jugador", "nombre": "Jannik Sinner", "nacionalidad": "Italia"},
+      {"tipo": "jugador", "nombre": "Carlos Alcaraz", "nacionalidad": "España"}
+    ],
+    "cuotas": {"jugador1": 2.10, "jugador2": 1.75}
+  },
+  {
+    "fecha": "2025-10-01",
+    "ciudad": "Milán",
+    "pais": "Italia",
+    "descripcion_texto": "AC Milan e Inter de Milán protagonizan el Derby della Madonnina en el Giuseppe Meazza por la Serie A italiana. El derby milanés es uno de los más apasionantes del fútbol europeo con ambos clubes compartiendo el mismo estadio. Ambos equipos están separados por dos puntos en la tabla clasificatoria con el Inter como líder. El partido tiene especial significado esta temporada ya que determinará el equipo que representará a Italia en la siguiente Champions League. El estadio tendrá aforo completo con 80,000 espectadores.",
+    "competencia": {
+      "nombre": "Serie A 2025-2026",
+      "fechainicio": "2025-08-17",
+      "fechafin": "2026-05-24",
+      "lugar": "Italia",
+      "deporte": {
+        "nombre": "Fútbol",
+        "region": "Europa",
+        "descripcion": "El fútbol es el deporte más popular del mundo. Dos equipos de once jugadores compiten para introducir el balón en la portería contraria. El equipo que anota más goles en 90 minutos gana el partido. Incluye tiempo de descuento y en eliminatorias puede ir a prórroga y penales."
+      }
+    },
+    "participantes": [
+      {"tipo": "equipo", "nombre": "AC Milan", "ciudad": "Milán", "pais": "Italia"},
+      {"tipo": "equipo", "nombre": "Inter de Milán", "ciudad": "Milán", "pais": "Italia"}
+    ],
+    "cuotas": {"local": 3.10, "empate": 3.20, "visitante": 2.30}
+  },
+  {
+    "fecha": "2025-10-15",
+    "ciudad": "Buenos Aires",
+    "pais": "Argentina",
+    "descripcion_texto": "Boca Juniors y River Plate se miden en el Superclásico del fútbol argentino en La Bombonera. El Superclásico es considerado el partido de fútbol con mayor rivalidad del mundo según múltiples encuestas internacionales. La Bombonera es uno de los estadios más intimidantes del mundo por la proximidad de las tribunas al campo y la intensidad de los aficionados de Boca. River Plate llega como campeon vigente de la Liga Profesional mientras que Boca busca recuperar el título. Los dos clubes más populares de Argentina se enfrentan en un partido que paraliza al país.",
+    "competencia": {
+      "nombre": "Liga Profesional Argentina 2025",
+      "fechainicio": "2025-01-15",
+      "fechafin": "2025-12-10",
+      "lugar": "Argentina",
+      "deporte": {
+        "nombre": "Fútbol",
+        "region": "América del Sur",
+        "descripcion": "El fútbol es el deporte más popular del mundo. Dos equipos de once jugadores compiten para introducir el balón en la portería contraria. El equipo que anota más goles en 90 minutos gana el partido. Incluye tiempo de descuento y en eliminatorias puede ir a prórroga y penales."
+      }
+    },
+    "participantes": [
+      {"tipo": "equipo", "nombre": "Boca Juniors", "ciudad": "Buenos Aires", "pais": "Argentina"},
+      {"tipo": "equipo", "nombre": "River Plate", "ciudad": "Buenos Aires", "pais": "Argentina"}
+    ],
+    "cuotas": {"local": 2.40, "empate": 3.20, "visitante": 2.80}
+  },
+  {
+    "fecha": "2025-11-01",
+    "ciudad": "Tokio",
+    "pais": "Japón",
+    "descripcion_texto": "Final del campeonato mundial de judo 2025 en el Nippon Budokan de Tokio. El judo es un arte marcial japonés convertido en deporte olímpico desde 1964. Los competidores buscan lanzar al oponente al suelo, inmovilizarlo o hacerle rendirse mediante llaves o estrangulaciones. Una victoria perfecta se llama Ippon y termina el combate inmediatamente. El Nippon Budokan es el hogar histórico del judo con capacidad para 14,000 espectadores. Japón es el país más laureado de la historia del judo mundial.",
+    "competencia": {
+      "nombre": "Campeonato Mundial de Judo 2025",
+      "fechainicio": "2025-10-25",
+      "fechafin": "2025-11-02",
+      "lugar": "Tokio, Japón",
+      "deporte": {
+        "nombre": "Judo",
+        "region": "Asia",
+        "descripcion": "El judo es un arte marcial y deporte de combate de origen japonés. Los competidores intentan lanzar al oponente al suelo, inmovilizarlo al menos 25 segundos, o hacerle rendirse mediante llaves articulares o estrangulaciones. Los puntos se otorgan por waza-ari y el ippon termina el combate instantáneamente."
+      }
+    },
+    "participantes": [
+      {"tipo": "jugador", "nombre": "Teddy Riner", "nacionalidad": "Francia"},
+      {"tipo": "jugador", "nombre": "Wolf Aaron", "nacionalidad": "Japón"}
+    ],
+    "cuotas": {"jugador1": 1.70, "jugador2": 2.10}
+  },
+  {
+    "fecha": "2025-11-15",
+    "ciudad": "Manchester",
+    "pais": "Reino Unido",
+    "descripcion_texto": "Manchester United recibe al Manchester City en el derby de Mánchester en Old Trafford. El estadio del Manchester United tiene capacidad para 74,000 espectadores y es conocido como el Teatro de los Sueños. El derby de Mánchester es uno de los partidos más seguidos del mundo con audiencias de más de 600 millones de personas. El City llega como gran favorito tras su dominio reciente de la Premier League. El United busca su primera victoria en casa ante el City en los últimos cinco encuentros disputados en Old Trafford.",
+    "competencia": {
+      "nombre": "Premier League 2025-2026",
+      "fechainicio": "2025-08-16",
+      "fechafin": "2026-05-17",
+      "lugar": "Inglaterra",
+      "deporte": {
+        "nombre": "Fútbol",
+        "region": "Europa",
+        "descripcion": "El fútbol es el deporte más popular del mundo. Dos equipos de once jugadores compiten para introducir el balón en la portería contraria. El equipo que anota más goles en 90 minutos gana el partido. Incluye tiempo de descuento y en eliminatorias puede ir a prórroga y penales."
+      }
+    },
+    "participantes": [
+      {"tipo": "equipo", "nombre": "Manchester United", "ciudad": "Manchester", "pais": "Reino Unido"},
+      {"tipo": "equipo", "nombre": "Manchester City", "ciudad": "Manchester", "pais": "Reino Unido"}
+    ],
+    "cuotas": {"local": 3.80, "empate": 3.50, "visitante": 1.90}
+  },
+  {
+    "fecha": "2025-12-01",
+    "ciudad": "Abu Dabi",
+    "pais": "Emiratos Árabes Unidos",
+    "descripcion_texto": "Gran Premio de Abu Dabi, última carrera de la temporada de Fórmula 1 2025 en el Circuito de Yas Marina. Esta carrera es especial porque puede definir el campeonato mundial de pilotos si el resultado aún está en disputa. El Circuito de Yas Marina es moderno, técnico y se disputa de noche con una iluminación espectacular. La carrera tiene lugar durante el atardecer comenzando de día y finalizando de noche, creando una atmósfera única. El circuito tiene 5.281 kilómetros y la carrera se disputa en 58 vueltas.",
+    "competencia": {
+      "nombre": "Fórmula 1 2025",
+      "fechainicio": "2025-03-16",
+      "fechafin": "2025-11-23",
+      "lugar": "Mundial",
+      "deporte": {
+        "nombre": "Automovilismo",
+        "region": "Mundial",
+        "descripcion": "La Fórmula 1 es la categoría máxima del automovilismo mundial. Los pilotos compiten en monoplazas de alta tecnología en circuitos de todo el mundo. Las carreras se disputan en una distancia mínima de 305 kilómetros o dos horas máximo. El campeonato mundial se decide por puntos acumulados durante la temporada."
+      }
+    },
+    "participantes": [
+      {"tipo": "jugador", "nombre": "Max Verstappen", "nacionalidad": "Países Bajos"},
+      {"tipo": "jugador", "nombre": "Lando Norris", "nacionalidad": "Reino Unido"},
+      {"tipo": "jugador", "nombre": "Charles Leclerc", "nacionalidad": "Mónaco"}
+    ],
+    "cuotas": {"verstappen": 2.20, "norris": 2.80, "leclerc": 4.50, "otro": 3.00}
+  },
+  {
+    "fecha": "2025-12-15",
+    "ciudad": "Barcelona",
+    "pais": "España",
+    "descripcion_texto": "Final del Masters de Tenis de Mesa 2025 en el Palau Sant Jordi de Barcelona. El tenis de mesa es uno de los deportes más practicados del mundo con más de 300 millones de jugadores. China domina históricamente la disciplina pero en los últimos años Europa ha ganado terreno. Los dos finalistas representan el choque entre la escuela asiática y la europea. Las raquetas modernas permiten efectos y velocidades extraordinarias que hacen prácticamente imposible seguir la pelota a simple vista.",
+    "competencia": {
+      "nombre": "World Table Tennis Champions 2025",
+      "fechainicio": "2025-12-10",
+      "fechafin": "2025-12-15",
+      "lugar": "Barcelona, España",
+      "deporte": {
+        "nombre": "Tenis de Mesa",
+        "region": "Mundial",
+        "descripcion": "El tenis de mesa o ping pong es un deporte de raqueta practicado en una mesa dividida por una red. Los jugadores golpean la pelota de un lado al otro intentando que no pueda ser devuelta. Los juegos son a 11 puntos y los partidos se disputan al mejor de siete juegos en competición de élite."
+      }
+    },
+    "participantes": [
+      {"tipo": "jugador", "nombre": "Fan Zhendong", "nacionalidad": "China"},
+      {"tipo": "jugador", "nombre": "Truls Moregard", "nacionalidad": "Suecia"}
+    ],
+    "cuotas": {"jugador1": 1.45, "jugador2": 2.70}
+  },
+  {
+    "fecha": "2026-01-10",
+    "ciudad": "Madrid",
+    "pais": "España",
+    "descripcion_texto": "Atletico de Madrid y Real Madrid se miden en el Metropolitano en el derby madrileño de LaLiga. El Wanda Metropolitano tiene capacidad para 68,000 espectadores y es conocido por su ambiente eléctrico. El Atletico llega en el mejor momento de la temporada con una racha de ocho partidos sin perder. El Real Madrid es el actual líder de la liga con cuatro puntos de ventaja. Los derbies madrileños son especialmente igualados en los últimos años con el Atletico rompiendo el duopolio del fútbol español.",
+    "competencia": {
+      "nombre": "LaLiga Santander 2025-2026",
+      "fechainicio": "2025-08-15",
+      "fechafin": "2026-05-24",
+      "lugar": "España",
+      "deporte": {
+        "nombre": "Fútbol",
+        "region": "Europa",
+        "descripcion": "El fútbol es el deporte más popular del mundo. Dos equipos de once jugadores compiten para introducir el balón en la portería contraria. El equipo que anota más goles en 90 minutos gana el partido. Incluye tiempo de descuento y en eliminatorias puede ir a prórroga y penales."
+      }
+    },
+    "participantes": [
+      {"tipo": "equipo", "nombre": "Atletico de Madrid", "ciudad": "Madrid", "pais": "España"},
+      {"tipo": "equipo", "nombre": "Real Madrid", "ciudad": "Madrid", "pais": "España"}
+    ],
+    "cuotas": {"local": 2.90, "empate": 3.30, "visitante": 2.40}
+  },
+  {
+    "fecha": "2026-02-01",
+    "ciudad": "Nueva Orleans",
+    "pais": "Estados Unidos",
+    "descripcion_texto": "Super Bowl LX en el Caesars Superdome de Nueva Orleans. El Super Bowl es el evento deportivo más visto en Estados Unidos con una audiencia de más de 100 millones de personas. La final de la NFL enfrenta a los campeones de la Conferencia Americana y la Nacional. El espectáculo del medio tiempo es tan seguido como el partido mismo. Los anuncios publicitarios del Super Bowl cuestan millones de dólares por treinta segundos. El ganador recibe el Trofeo Vince Lombardi.",
+    "competencia": {
+      "nombre": "NFL Playoffs 2025-2026",
+      "fechainicio": "2026-01-11",
+      "fechafin": "2026-02-01",
+      "lugar": "Estados Unidos",
+      "deporte": {
+        "nombre": "Fútbol Americano",
+        "region": "América del Norte",
+        "descripcion": "El fútbol americano es un deporte de equipo donde dos equipos de 11 jugadores intentan avanzar con el balón ovalado hasta la zona de anotación rival. Los partidos tienen cuatro cuartos de 15 minutos. El equipo ataca con cuatro intentos para avanzar 10 yardas o anotar. La anotación principal vale seis puntos más el punto extra o dos puntos adicionales."
+      }
+    },
+    "participantes": [
+      {"tipo": "equipo", "nombre": "Kansas City Chiefs", "ciudad": "Kansas City", "pais": "Estados Unidos"},
+      {"tipo": "equipo", "nombre": "San Francisco 49ers", "ciudad": "San Francisco", "pais": "Estados Unidos"}
+    ],
+    "cuotas": {"local": 1.95, "visitante": 1.85}
+  },
+  {
+    "fecha": "2026-03-01",
+    "ciudad": "Melbourne",
+    "pais": "Australia",
+    "descripcion_texto": "Gran Premio de Australia, primera carrera de la temporada de Fórmula 1 2026 en el Circuito Albert Park. La apertura de la temporada siempre genera gran expectativa con los equipos mostrando por primera vez sus nuevos monoplazas en competición. Albert Park es un circuito urbano que rodea un lago en el centro de Melbourne. La carrera se disputará en 58 vueltas del circuito de 5.278 kilómetros. Se esperan grandes cambios en la jerarquía de equipos con el nuevo reglamento técnico de 2026.",
+    "competencia": {
+      "nombre": "Fórmula 1 2026",
+      "fechainicio": "2026-03-01",
+      "fechafin": "2026-11-29",
+      "lugar": "Mundial",
+      "deporte": {
+        "nombre": "Automovilismo",
+        "region": "Mundial",
+        "descripcion": "La Fórmula 1 es la categoría máxima del automovilismo mundial. Los pilotos compiten en monoplazas de alta tecnología en circuitos de todo el mundo. Las carreras se disputan en una distancia mínima de 305 kilómetros o dos horas máximo. El campeonato mundial se decide por puntos acumulados durante la temporada."
+      }
+    },
+    "participantes": [
+      {"tipo": "jugador", "nombre": "Max Verstappen", "nacionalidad": "Países Bajos"},
+      {"tipo": "jugador", "nombre": "Lando Norris", "nacionalidad": "Reino Unido"},
+      {"tipo": "jugador", "nombre": "Fernando Alonso", "nacionalidad": "España"}
+    ],
+    "cuotas": {"verstappen": 2.50, "norris": 3.00, "alonso": 6.00, "otro": 2.80}
+  },
+  {
+    "fecha": "2026-04-01",
+    "ciudad": "París",
+    "pais": "Francia",
+    "descripcion_texto": "Final de la UEFA Champions League 2025-2026 en el Stade de France de París. La final de la Champions League es el partido de clubes más importante del mundo con una audiencia global de más de 350 millones de personas. Los dos finalistas llegan después de superar seis rondas de eliminatoria directa. El Stade de France tiene capacidad para 80,000 espectadores y es uno de los estadios más emblemáticos de Europa. El título europeo es el sueño de todos los clubes del continente.",
+    "competencia": {
+      "nombre": "UEFA Champions League 2025-2026",
+      "fechainicio": "2025-07-08",
+      "fechafin": "2026-04-01",
+      "lugar": "Europa",
+      "deporte": {
+        "nombre": "Fútbol",
+        "region": "Europa",
+        "descripcion": "El fútbol es el deporte más popular del mundo. Dos equipos de once jugadores compiten para introducir el balón en la portería contraria. El equipo que anota más goles en 90 minutos gana el partido. Incluye tiempo de descuento y en eliminatorias puede ir a prórroga y penales."
+      }
+    },
+    "participantes": [
+      {"tipo": "equipo", "nombre": "Real Madrid", "ciudad": "Madrid", "pais": "España"},
+      {"tipo": "equipo", "nombre": "Bayern Munich", "ciudad": "Múnich", "pais": "Alemania"}
+    ],
+    "cuotas": {"local": 2.00, "empate": 3.40, "visitante": 3.60}
+  }
+]

@@ -8,7 +8,7 @@ let db = null;
 
 export async function connectDB() {
   try {
-    if (db) return db; // 🔥 Si ya está conectada, no volver a conectar
+    if (db) return db; // Si ya estamos conectados, devolvemos la instancia existente
 
     console.log("🔌 Conectando a MongoDB...");
 

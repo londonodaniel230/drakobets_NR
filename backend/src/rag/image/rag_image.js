@@ -1,6 +1,6 @@
-const { embedText, embedImage } = require("../utils/embeddings");
+import { embedText, embedImage } from "../utils/embeddings.js";
 
-async function ragImage(db, input) {
+export async function ragImage(db, input) {
     const col = db.collection("media");
 
     const vector =
@@ -37,5 +37,3 @@ async function ragImage(db, input) {
 
     return { results, context };
 }
-
-module.exports = { ragImage };

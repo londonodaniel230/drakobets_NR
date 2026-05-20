@@ -1,15 +1,17 @@
-const usuarioIndex = require("./usuario_index");
-const transaccionIndex = require("./transaccion_index");
-const apuestaIndex = require("./apuesta_index");
-const apuestaCasinoIndex = require("./apuestaCasino_index");
-const eventoIndex = require("./evento_index");
-const competenciaIndex = require("./competencia_index");
+import usuarioIndex from './usuario_index.js';
+import transaccionIndex from './transaccion_index.js';
+import apuestaIndex from './apuesta_index.js';
+import apuestaCasinoIndex from './apuestaCasino_index.js';
+import eventoIndex from './evento_index.js';
+import competenciaIndex from './competencia_index.js';
+import chunksIndex from './chunks_index.js';
 
-module.exports = async function createAllIndexes(db) {
+export default async function createAllIndexes(db) {
   await usuarioIndex(db);
   await transaccionIndex(db);
   await apuestaIndex(db);
   await apuestaCasinoIndex(db);
   await eventoIndex(db);
   await competenciaIndex(db);
-};
+  await chunksIndex(db);
+}
