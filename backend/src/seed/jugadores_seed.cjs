@@ -50,3 +50,4 @@ module.exports = async function jugadoresSeed(db, equipos) {
   await col.insertMany(jugadores);
   return jugadores;
 };
+

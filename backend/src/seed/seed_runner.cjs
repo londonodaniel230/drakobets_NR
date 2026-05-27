@@ -1,16 +1,16 @@
-const usuariosSeed = require("./usuarios_seed");
-const competenciasSeed = require("./competencias_seed");
-const equiposSeed = require("./equipos_seed");
-const jugadoresSeed = require("./jugadores_seed");
-const juegosSeed = require("./juegos_seed");
-const premiosSeed = require("./premios_seed");
-const tipoApuestaSeed = require("./tipoApuesta_seed");
-const eventosSeed = require("./eventos_seed");
-const transaccionesSeed = require("./transacciones_seed");
-const apuestaCasinoSeed = require("./apuestaCasino_seed");
-const apuestasSeed = require("./apuestas_seed");
-const detalleApuestaSeed = require("./detalleApuesta_seed");
-const apuestasCompetenciasSeed = require("./apuestasCompetencias_seed");
+const usuariosSeed = require("./usuarios_seed.cjs");
+const competenciasSeed = require("./competencias_seed.cjs");
+const equiposSeed = require("./equipos_seed.cjs");
+const jugadoresSeed = require("./jugadores_seed.cjs");
+const juegosSeed = require("./juegos_seed.cjs");
+const premiosSeed = require("./premios_seed.cjs");
+const tipoApuestaSeed = require("./tipoApuesta_seed.cjs");
+const eventosSeed = require("./eventos_seed.cjs");
+const transaccionesSeed = require("./transacciones_seed.cjs");
+const apuestaCasinoSeed = require("./apuestaCasino_seed.cjs");
+const apuestasSeed = require("./apuestas_seed.cjs");
+const detalleApuestaSeed = require("./detalleApuesta_seed.cjs");
+const apuestasCompetenciasSeed = require("./apuestasCompetencias_seed.cjs");
 
 module.exports = async function seedDatabase(db) {
   const usuarios = await usuariosSeed(db);
@@ -33,3 +33,4 @@ module.exports = async function seedDatabase(db) {
     apuestas, detalles, apuestasComp
   };
 };
+

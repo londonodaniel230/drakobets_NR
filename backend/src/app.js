@@ -2,23 +2,23 @@ import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
 import ragRoutes from "./routes/rag.routes.js";
+import searchRoutes from "./routes/search.routes.js";
 
 const app = express();
 
-// Necesario para poder leer JSON del frontend
 app.use(express.json());
 
-// Resolver rutas de archivos
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// 🚀 Servir el frontend automáticamente desde /frontend
 app.use(express.static(path.join(process.cwd(), "../frontend")));
 
-// 📌 API RAG
+// Búsqueda multimodal — debe ir ANTES de ragRoutes
+app.use("/api/search", searchRoutes);
+
+// RAG y search vectorial
 app.use("/api", ragRoutes);
 
-// Si no existe una ruta API, devolver index.html
 app.get("*", (req, res) => {
   res.sendFile(path.join(process.cwd(), "../frontend/index.html"));
 });

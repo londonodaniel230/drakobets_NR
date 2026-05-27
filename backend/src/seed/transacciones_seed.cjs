@@ -50,3 +50,4 @@ module.exports = async function transaccionesSeed(db, usuarios) {
   await col.insertMany(transacciones);
   return transacciones;
 };
+

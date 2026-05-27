@@ -52,3 +52,4 @@ module.exports = async function apuestasSeed(db, usuarios, premios) {
   await col.insertMany(apuestas);
   return apuestas;
 };
+

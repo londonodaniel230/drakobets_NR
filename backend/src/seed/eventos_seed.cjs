@@ -52,3 +52,4 @@ module.exports = async function eventosSeed(db, competencias) {
   await col.insertMany(eventos);
   return eventos;
 };
+

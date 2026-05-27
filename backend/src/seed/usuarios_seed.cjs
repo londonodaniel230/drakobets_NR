@@ -1,5 +1,5 @@
 const { ObjectId } = require("mongodb");
-const { isEmpty } = require("../../utils/helpers");
+const { isEmpty } = require("../utils/helpers.cjs");
 
 module.exports = async function usuariosSeed(db) {
   const col = db.collection("usuario");
@@ -52,3 +52,4 @@ module.exports = async function usuariosSeed(db) {
   await col.insertMany(usuarios);
   return usuarios;
 };
+

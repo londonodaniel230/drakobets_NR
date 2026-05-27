@@ -50,3 +50,4 @@ module.exports = async function detalleApuestaSeed(db, apuestas, eventos, tiposA
   await col.insertMany(detalles);
   return detalles;
 };
+

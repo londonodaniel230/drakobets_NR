@@ -1,5 +1,5 @@
 const { ObjectId } = require("mongodb");
-const { isEmpty } = require("../../utils/helpers");
+const { isEmpty } = require("../utils/helpers.cjs");
 
 module.exports = async function tipoApuestaSeed(db) {
   const col = db.collection("tipoApuesta");
@@ -52,3 +52,4 @@ module.exports = async function tipoApuestaSeed(db) {
   await col.insertMany(tipos);
   return tipos;
 };
+

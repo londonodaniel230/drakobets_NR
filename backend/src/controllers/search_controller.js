@@ -1,6 +1,6 @@
 import { getDB } from "../config/db.js";
 import { ragText } from "../rag/text/rag_text.js";
-import { embedImage } from "../rag/utils/embeddings.js";
+import { embedImage, embedTextCLIP } from "../rag/utils/embeddings.js";
 
 export async function search(req, res) {
   try {
@@ -15,7 +15,7 @@ export async function search(req, res) {
 
     // Búsqueda texto → imagen (CLIP)
     if (type === "t2i") {
-      const vector = await embedImage(query); // texto como query para CLIP
+      const vector = await embedTextCLIP(query); // texto como query para CLIP
       const results = await db.collection("imagenes").aggregate([
         {
           $vectorSearch: {

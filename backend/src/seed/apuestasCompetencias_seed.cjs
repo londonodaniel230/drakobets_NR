@@ -50,3 +50,4 @@ module.exports = async function apuestasCompetenciasSeed(db, apuestas, competenc
   await col.insertMany(apComp);
   return apComp;
 };
+

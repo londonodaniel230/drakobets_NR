@@ -1,36 +1,247 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DrakoBets RAG System</title>
-    <link rel="stylesheet" href="./css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DrakoBets RAG — Sistema de Consulta Inteligente</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;900&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
 
-    <header class="header">
-        <img src="./assets/logo.png" alt="DrakoBets Logo" class="logo">
-        <h1>🔥 Sistema RAG NoSQL - DrakoBets</h1>
-    </header>
+  <div class="bg-grid"></div>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
 
-    <main class="container">
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo-wrap">
+        <div class="logo-icon">🐉</div>
+        <div class="logo-text">
+          <span class="logo-main">DrakoBets</span>
+          <span class="logo-sub">RAG · Sistema de Consulta Inteligente</span>
+        </div>
+      </div>
+      <div class="header-badges">
+        <span class="badge badge-mongo">MongoDB Atlas</span>
+        <span class="badge badge-groq">Groq · Llama 3.3</span>
+        <span class="badge badge-rag">RAG</span>
+      </div>
+    </div>
+  </header>
 
-        <section class="card">
-            <h2>🔍 Consulta Inteligente</h2>
+  <main class="main">
 
-            <textarea id="query" placeholder="Escribe tu pregunta aquí..."></textarea>
+    <!-- Panel izquierdo -->
+    <aside class="panel panel-left">
 
-            <button id="btnConsultar">Consultar</button>
+      <div class="panel-section">
+        <h3 class="panel-title"><span class="icon">🔎</span> Modo de Búsqueda</h3>
+        <div class="mode-group" id="modeGroup">
+          <button class="mode-btn active" data-mode="rag">
+            <span class="m-icon">🧠</span>
+            <div class="m-content">
+              <span class="m-label">RAG · Texto</span>
+              <span class="m-hint">Respuesta generada por LLM</span>
+            </div>
+          </button>
+          <button class="mode-btn" data-mode="t2t">
+            <span class="m-icon">📄</span>
+            <div class="m-content">
+              <span class="m-label">Búsqueda Texto</span>
+              <span class="m-hint">Chunks más similares</span>
+            </div>
+          </button>
+          <button class="mode-btn" data-mode="t2i">
+            <span class="m-icon">🖼️</span>
+            <div class="m-content">
+              <span class="m-label">Texto → Imagen</span>
+              <span class="m-hint">Busca imágenes por texto</span>
+            </div>
+          </button>
+          <button class="mode-btn" data-mode="i2i">
+            <span class="m-icon">📸</span>
+            <div class="m-content">
+              <span class="m-label">Imagen → Imagen</span>
+              <span class="m-hint">Sube imagen y busca similares</span>
+            </div>
+          </button>
+        </div>
+      </div>
 
-            <h3>📘 Respuesta:</h3>
-            <div id="respuesta" class="respuesta"></div>
+      <div class="panel-section" id="strategySection">
+        <h3 class="panel-title"><span class="icon">⚙️</span> Estrategia de Chunking</h3>
+        <div class="strategy-group" id="strategyGroup">
+          <button class="strategy-btn active" data-value="">
+            <span class="s-icon">∞</span>
+            <span class="s-label">Todas</span>
+          </button>
+          <button class="strategy-btn" data-value="fixed-size">
+            <span class="s-icon">▦</span>
+            <span class="s-label">Fixed-size</span>
+            <span class="s-hint">256 tok / 32 overlap</span>
+          </button>
+          <button class="strategy-btn" data-value="sentence-aware">
+            <span class="s-icon">❝</span>
+            <span class="s-label">Sentence-aware</span>
+            <span class="s-hint">5 oraciones / 1 overlap</span>
+          </button>
+          <button class="strategy-btn" data-value="semantic">
+            <span class="s-icon">◈</span>
+            <span class="s-label">Semantic</span>
+            <span class="s-hint">umbral coseno 0.80</span>
+          </button>
+        </div>
+      </div>
 
-            <h3>📌 Referencias utilizadas:</h3>
-            <div id="referencias" class="referencias"></div>
-        </section>
+      <div class="panel-section" id="quickSection">
+        <h3 class="panel-title"><span class="icon">⚡</span> Consultas rápidas</h3>
+        <div class="quick-list" id="quickList">
+          <button class="quick-btn">¿Cuáles son las reglas del blackjack?</button>
+          <button class="quick-btn">¿Qué slots tienen el RTP más alto?</button>
+          <button class="quick-btn">¿Cómo funciona la ruleta europea?</button>
+          <button class="quick-btn">¿Qué estrategias hay para el póker?</button>
+          <button class="quick-btn">¿Qué juegos tienen jackpot progresivo?</button>
+          <button class="quick-btn">¿Qué deportes hay disponibles para apostar?</button>
+          <button class="quick-btn">¿Cómo funciona el bono de bienvenida?</button>
+          <button class="quick-btn">Explica el sistema de apuestas combinadas</button>
+        </div>
+      </div>
 
-    </main>
+      <!-- Consultas rápidas para imágenes -->
+      <div class="panel-section hidden" id="quickImgSection">
+        <h3 class="panel-title"><span class="icon">⚡</span> Búsquedas rápidas</h3>
+        <div class="quick-list">
+          <button class="quick-img-btn">escudo equipo fútbol español</button>
+          <button class="quick-img-btn">logo club argentino</button>
+          <button class="quick-img-btn">escudo equipo alemán bundesliga</button>
+          <button class="quick-img-btn">logo equipo baloncesto NBA</button>
+          <button class="quick-img-btn">escudo club inglés premier league</button>
+          <button class="quick-img-btn">logo equipo fútbol americano NFL</button>
+          <button class="quick-img-btn">escudo club italiano serie a</button>
+          <button class="quick-img-btn">logo club brasileño fútbol</button>
+        </div>
+      </div>
 
-    <script src="./js/app.js"></script>
+      <div class="panel-section">
+        <h3 class="panel-title"><span class="icon">📊</span> Estadísticas</h3>
+        <div class="stats-grid">
+          <div class="stat-card"><div class="stat-num">54</div><div class="stat-label">Documentos</div></div>
+          <div class="stat-card"><div class="stat-num">588</div><div class="stat-label">Chunks</div></div>
+          <div class="stat-card"><div class="stat-num">45</div><div class="stat-label">Imágenes</div></div>
+          <div class="stat-card"><div class="stat-num">3</div><div class="stat-label">Estrategias</div></div>
+        </div>
+      </div>
+
+    </aside>
+
+    <!-- Panel central -->
+    <section class="panel panel-center">
+
+      <!-- Input texto -->
+      <div class="query-box" id="textQueryBox">
+        <div class="query-header">
+          <span class="query-title" id="queryTitle">Haz tu consulta</span>
+          <span class="query-hint" id="strategyLabel">Estrategia: Todas</span>
+        </div>
+        <textarea id="query" placeholder="¿En qué te puedo ayudar sobre DrakoBets?"></textarea>
+        <div class="query-footer">
+          <button class="btn-clear" id="btnClear">Limpiar</button>
+          <button class="btn-ask" id="btnConsultar">
+            <span class="btn-icon">🔍</span>
+            <span id="btnLabel">Consultar</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Input imagen -->
+      <div class="query-box hidden" id="imageQueryBox">
+        <div class="query-header">
+          <span class="query-title">Búsqueda por imagen</span>
+          <span class="query-hint">Imagen → Imagen similar</span>
+        </div>
+        <div class="img-upload-area" id="imgUploadArea">
+          <input type="file" id="imgInput" accept="image/*" class="hidden" />
+          <div class="img-placeholder" id="imgPlaceholder">
+            <span class="img-ph-icon">📸</span>
+            <p>Haz clic o arrastra una imagen aquí</p>
+            <p class="img-ph-sub">PNG, JPG, WEBP — máx 5MB</p>
+          </div>
+          <img id="imgPreview" class="img-preview hidden" alt="Preview" />
+        </div>
+        <div class="query-footer">
+          <button class="btn-clear" id="btnClearImg">Limpiar</button>
+          <button class="btn-ask" id="btnConsultarImg">
+            <span class="btn-icon">🔍</span>
+            <span>Buscar similares</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Estado vacío -->
+      <div class="empty-state" id="emptyState">
+        <div class="empty-dragon">🐉</div>
+        <p class="empty-title">Listo para responder</p>
+        <p class="empty-sub">Escribe una pregunta o selecciona un modo de búsqueda.</p>
+      </div>
+
+      <!-- Loading -->
+      <div class="loading-state hidden" id="loadingState">
+        <div class="loading-ring"></div>
+        <p class="loading-text">Procesando consulta...</p>
+        <p class="loading-sub" id="loadingStep">Generando embedding</p>
+      </div>
+
+      <!-- Respuesta RAG -->
+      <div class="response-box hidden" id="responseBox">
+        <div class="response-header">
+          <div class="response-meta">
+            <span class="meta-tag" id="metaMode"></span>
+            <span class="meta-tag" id="metaStrategy"></span>
+            <span class="meta-tag meta-time" id="metaTime"></span>
+          </div>
+          <button class="btn-copy" id="btnCopy" title="Copiar">📋</button>
+        </div>
+        <div class="response-content" id="respuesta"></div>
+      </div>
+
+      <!-- Resultados de imágenes -->
+      <div class="img-results hidden" id="imgResults">
+        <div class="img-results-header">
+          <span class="img-results-title">Imágenes encontradas</span>
+          <span class="meta-tag meta-time" id="imgMetaTime"></span>
+        </div>
+        <div class="img-grid" id="imgGrid"></div>
+      </div>
+
+      <!-- Resultados chunks t2t -->
+      <div class="chunks-results hidden" id="chunksResults">
+        <div class="response-header">
+          <div class="response-meta">
+            <span class="meta-tag" id="chunksMeta"></span>
+            <span class="meta-tag meta-time" id="chunksTime"></span>
+          </div>
+        </div>
+        <div id="chunksList"></div>
+      </div>
+
+    </section>
+
+    <!-- Panel derecho -->
+    <aside class="panel panel-right">
+      <h3 class="panel-title"><span class="icon">📌</span> <span id="rightPanelTitle">Chunks recuperados</span></h3>
+      <div class="refs-empty" id="refsEmpty">
+        <span class="refs-empty-icon">🔎</span>
+        <p>Los fragmentos de contexto usados para generar la respuesta aparecerán aquí.</p>
+      </div>
+      <div class="refs-list hidden" id="refsList"></div>
+    </aside>
+
+  </main>
+
+  <div class="toast hidden" id="toast"></div>
+  <script src="./js/app.js"></script>
 </body>
 </html>
