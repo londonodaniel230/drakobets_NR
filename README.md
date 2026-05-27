@@ -1,5 +1,8 @@
 # 🐉 DrakoBets RAG
 ### Sistema de Consulta Inteligente para Casino Online
+Presentado por:
+Jhoan Sebastian Velez
+Jaider León Diaz
 > MongoDB Atlas · Node.js · FastAPI · Groq Llama 3.3 · all-MiniLM-L6-v2 · CLIP
 
 ---
